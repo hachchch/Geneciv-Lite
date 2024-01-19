@@ -12,8 +12,8 @@
 	    "[+20]% Production when constructing [Cretaceous] units [in all cities] <during the [Mesozoic era]>",
 	    "[+20]% XP gained from combat <for [Cretaceous] units> <during the [Mesozoic era]>",
 
-	    "[+20]% Production when constructing [Pennsylvanian] units [in all cities] <during the [Carboniferous period]>",
-	    "[+20]% XP gained from combat <for [Pennsylvanian] units> <during the [Carboniferous period]>",
+	    "[+20]% Production when constructing [Pennsylvanian] units [in all cities] <during the [Ancient era]>",
+	    "[+20]% XP gained from combat <for [Pennsylvanian] units> <during the [Ancient era]>",
 	    
 	    "[+20]% Production when constructing [Jurassic] units [in all cities] <during the [Mesozoic era]>",
 	    "[+20]% XP gained from combat <for [Jurassic] units> <during the [Mesozoic era]>",
@@ -38,6 +38,9 @@
 
 	    "[+20]% Production when constructing [Cambrian] units [in all cities] <during the [Cambrian period]>",
 	    "[+20]% XP gained from combat <for [Cambrian] units> <during the [Cambrian period]>",
+
+	    "[+20]% Production when constructing [Neoproterozoic] units [in all cities] <during the [Ediacaran]>",
+	    "[+20]% XP gained from combat <for [Neoproterozoic] units> <during the [Ediacaran]>",
 
 	    "[+20]% Production when constructing [Devonian] units [in all cities] <during the [Ancient era]>",
 	    "[+20]% XP gained from combat <for [Devonian] units> <during the [Ancient era]>",
