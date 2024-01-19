@@ -973,7 +973,7 @@
 		"maintenance": 1,
 		"cityStrength": 5,
                 "cityHealth": 40,
-		"requiredTech": "Protein",
+		"requiredTech": "Amino Acid",
 	},
 	{
 		"name": "Polypeptides",
@@ -982,7 +982,7 @@
 		"maintenance": 1,
 		// "uniques": ["[+33]% Production when constructing [Particle] units [in this city]"],
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Protein",
+		"requiredTech": "Amino Acid",
 	},
 	{
 		"name": "Chromosomes",
@@ -1007,7 +1007,7 @@
 		"requiredBuilding": "Replication",
 		// "cost": 80,
 		"maintenance": 1,
-		"requiredTech": "Mitosis",
+		"requiredTech": "Asexsual Reproduction",
 		"uniques": ["[5]% Food is carried over after population increases [in this city]"],
 	},
 	{
@@ -1050,7 +1050,7 @@
 		"name": "Fungi",
 		"maintenance": 1,
 		"specialistSlots": {"Meristem": 2},
-		"requiredTech": "Tissue",
+		"requiredTech": "Eukaryotic Cell",
 		// "cost": 100,
 		"gold": 1,
 		// "science": 2,
