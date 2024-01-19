@@ -551,11 +551,11 @@
 		"cost": 150,
 		"isWonder": true,
 		"uniques": ["All Life's Origin","Provides 1~4 Science during the each Era after you discovered Evolution(List: Prokaryotic Cell, Eukaryotic Cell, Sponge, Swimming, Flatworm, Exoskeleton, Fish, Lungfish, Archosauria, Mammal, Eutherians, Modern Ocean, Flying, Homo Sapiens Sapiens, Chloroplasts, Fern, Flowers)",
-		"[+1 Science] <after discovering [Prokaryotic Cell]> <before the [Mesoproterozoic]> <hidden from users>",
-		"[+1 Science] <after discovering [Eukaryotic Cell]> <before the [Mesoproterozoic]> <hidden from users>",
-		"[+1 Science] <after discovering [Sponge]> <before the [Cambrian period]> <hidden from users>",
-		"[+1 Science] <after discovering [Swimming]> <before the [Cambrian period]> <hidden from users>",
-		"[+1 Science] <after discovering [Flatworm]> <before the [Cambrian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Prokaryotic Cell]> <before the [Proterozoic]> <hidden from users>",
+		"[+1 Science] <after discovering [Eukaryotic Cell]> <before the [Proterozoic]> <hidden from users>",
+		"[+1 Science] <after discovering [Sponge]> <before the [Ediacaran]> <hidden from users>",
+		"[+1 Science] <after discovering [Swimming]> <before the [Ediacaran]> <hidden from users>",
+		"[+1 Science] <after discovering [Flatworm]> <before the [Ediacaran]> <hidden from users>",
 		"[+1 Science] <after discovering [Exoskeleton]> <before the [Ancient era]> <hidden from users>",
 		"[+1 Science] <after discovering [Fish]> <before the [Ancient era]> <hidden from users>",
 		"[+1 Science] <after discovering [Lungfish]> <before the [Permian period]> <hidden from users>",
@@ -598,7 +598,7 @@
 		"requiredTech": "Fern",
 		"science": 3,
 		"isWonder": true,
-		"uniques": ["Must be next to [Forests]","[+1 Culture] from [Coal] tiles [in all cities]","[-50]% Food consumption by specialists [in this city]","Unbuildable <before the [Carboniferous period]>"],
+		"uniques": ["Must be next to [Forests]","[+1 Culture] from [Coal] tiles [in all cities]","[-50]% Food consumption by specialists [in this city]","Unbuildable <before the [Ancient era]>"],
 		"quote": "The Carboniferous rainforest collapse was a minor extinction event that occurred around 305 million years ago in the Carboniferous period. It altered the vast coal forests that covered the equatorial region of Euramerica. This event may have fragmented the forests into isolated refugia or ecological 'islands', which in turn encouraged dwarfism and, shortly after, extinction of many plant and animal species. Following the event, coal-forming tropical forests continued in large areas of the Earth, but their extent and composition were changed.",
 	},
 	{
@@ -627,13 +627,13 @@
 		"gold": 4,
 		"isWonder": true,
 		"cost": 275,
-		"uniques": ["Must be next to [Cold]","[+2 Gold, +1 Food] from [Snow] tiles [in all cities]","Unbuildable <before the [Neoproterozoic]>"]
+		"uniques": ["Must be next to [Cold]","[+2 Gold, +1 Food] from [Snow] tiles [in all cities]","Unbuildable <before the [Ediacaran]>"]
 	},
 	{
 		"name": "Avalon Explosion",
 		"isWonder": true,
 		"cost": 275,
-		"uniques": ["[2] free [Radiodonta] units appear","[+1 Gold] from [Water] tiles [in this city]","Unbuildable <before the [Neoproterozoic]>"]
+		"uniques": ["[2] free [Radiodonta] units appear","[+1 Gold] from [Water] tiles [in this city]","Unbuildable <before the [Ediacaran]>"]
 	},
 	{
 		"name": "Great Ordovician Biodiversification Event",
@@ -663,7 +663,7 @@
 		"name": "Romer's Gap",
 		"cost": 450,
 		"isWonder": true,
-		"uniques": ["Free [Tetrapod] appears","[+50]% Strength <for [Tetrapod] units>","Unbuildable <before the [Carboniferous period]>"],
+		"uniques": ["Free [Tetrapod] appears","[+50]% Strength <for [Tetrapod] units>","Unbuildable <before the [Ancient era]>"],
 		"quote": "This time is known for having very few fossils. The reason for this may be that the environment was not favorable for the formation of fossils.",
 	},
 	{
@@ -680,13 +680,13 @@
 		"food": 4,
 		// "cost": 300,
 		"requiredTech": "Sexual Reproduction",
-		"uniques": ["Bangiomorpha is Red Algae that Earliest Sexual Reproduction Animal","Must be next to [Coast]","Unbuildable <before the [Mesoproterozoic]>"]
+		"uniques": ["Bangiomorpha is Red Algae that Earliest Sexual Reproduction Animal","Must be next to [Coast]","Unbuildable <before the [Proterozoic]>"]
 	},
 	{
 		"name": "Grenville Orogeny",
 		"cost": 250,
 		"isWonder": true,
-		"uniques": ["[50]% of excess happiness converted to [Gold]","Unbuildable <before the [Mesoproterozoic]>"]
+		"uniques": ["[50]% of excess happiness converted to [Gold]","Unbuildable <before the [Proterozoic]>"]
 	},
 	{
 		"name": "Camellia Sinensis",
