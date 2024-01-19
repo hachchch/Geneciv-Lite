@@ -23,7 +23,7 @@
     {
         "name": "Calender",
         "type": "Enhancer",
-        "uniques": ["[+10]% [Food] [in all cities] <before the [Industrial era]>"],
+        "uniques": ["[+10]% [Food] [in all cities]"],
     },
     {
         "name": "Defender of the Faith",
