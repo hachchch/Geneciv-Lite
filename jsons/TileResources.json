@@ -54,7 +54,7 @@
 	{
 		"name": "Super Creature Stock",
 		"resourceType": "Strategic",
-		"uniques": ["Cannot be traded <before discovering [Genome Mapping]>","Excluded from map editor"],
+		"uniques": ["Excluded from map editor"],
 	},
 	// CityStates
 	{
