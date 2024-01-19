@@ -1540,7 +1540,7 @@
 		"cost": 800,
 		"attackSound": "metalhit",
 		"requiredTech": "War",
-		"obsoleteTech": "Urbanization",
+		// "obsoleteTech": "Urbanization",
 		"unitType": "Human",
 		"strength": 170,
 		"movement": 2,
