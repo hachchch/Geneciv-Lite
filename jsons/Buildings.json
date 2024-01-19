@@ -126,7 +126,7 @@
 		"cityStrength": 5,
                 "cityHealth": 50,
 		"maintenance": 1,
-		"requiredTech": "Tissue",
+		"requiredTech": "Sponge",
 	},
 	{
 		"name": "Hair Follicle",
