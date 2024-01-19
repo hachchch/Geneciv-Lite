@@ -79,7 +79,7 @@
 			{
 				"name": "Industrial Revolution",
 				"uniques": ["Human Activities causing the Recent Holocene Extinction Event, Natural Extinction Speed increasing by 100000% than the past","[+25]% [Gold] [in capital] <after discovering [Anthropocene]>","[+15]% [Production] [in all cities] <after discovering [Anthropocene]>","[-1 Food] from [Ocean] tiles [in all cities] <after discovering [Anthropocene]>","[-1 Production] from [GrassLand] tiles [in all cities] <after discovering [Anthropocene]>","[-1 Food] from [Forest] tiles [in all cities] <after discovering [Anthropocene]>",
-				"[+25]% [Gold] [in capital] <after discovering [Industrialization]>","[+15]% [Production] [in all cities] <after discovering [Industrialization]>","[-1 Food] from [Ocean] tiles [in all cities] <after discovering [Industrialization]>","[-1 Production] from [GrassLand] tiles [in all cities] <after discovering [Industrialization]>","[-1 Food] from [Forest] tiles [in all cities] <after discovering [Industrialization]>"],
+				"[+25]% [Gold] [in capital]","[+15]% [Production] [in all cities]","[-1 Food] from [Ocean] tiles [in all cities]","[-1 Production] from [GrassLand] tiles [in all cities]","[-1 Food] from [Forest] tiles [in all cities]"],
 				"row": 10,
 				"column": 2,
 				"requires": ["Overfishing"],
@@ -93,31 +93,10 @@
 			},
 			{
 				"name": "Nuclear Apocalypse",
-				"uniques": ["Everything is Estrasted to USA and USSR, or Most Animals died forever","[+10]% Strength <for [Gunpowder] units> <when attacking>","Free [Nuclear Missile] appears"],
+				"uniques": ["Everything is Estrasted to USA and USSR, or Most Animals died forever"],
 				"row": 10,
 				"column": 4,
 				"requires": ["Overfishing"],
-			},
-			{
-				"name": "Nibiru Cataclysm",
-				"uniques": ["Is Solar System will be destroy by Zeta Reticulians?","Enable Conversation with Aliens after discovering Space Station (with 0.000000001% Chances)"],
-				"row": 11,
-				"column": 2,
-				"requires": ["Industrial Revolution"],
-			},
-			{
-				"name": "End of Daylight",
-				"uniques": ["The Sun converted to Red Giants 5 billion years from now. The expanding Sun is expected to vaporize Mercury as well as Venus, and render Earth uninhabitable. 100% Species will be Died Forever."],
-				"row": 11,
-				"column": 4,
-				"requires": ["Nuclear Apocalypse"],
-			},
-			{
-				"name": "Entropy Maximum",
-				"row": 12,
-				"column": 3,
-				"uniques": ["Final Extinction Event"],
-				"requires": ["End of Daylight","Nibiru Cataclysm"],
 			},
 			{
 				"name": "Extinctions Complete",
