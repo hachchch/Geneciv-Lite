@@ -317,8 +317,8 @@
 			},
 			{
 				"name": "Sponge",
-				"row": 4,
-				"prerequisites": ["Eukaryotic Cell","Filter Feeding"],
+				"row": 5,
+				"prerequisites": ["Eukaryotic Cell"],
 				"quote": "'Sponges, the members of the phylum Porifera, are a basal animal clade as a sister of the diploblasts. They are multicellular organisms that have bodies full of pores and channels allowing water to circulate through them, consisting of jelly-like mesohyl sandwiched between two thin layers of cells.' - Wikipedia",
 				"civilopediaText": [
 			{
@@ -380,8 +380,8 @@
 			},
 			{
 				"name": "Coral",
-				"row": 4,
-				"prerequisites": ["Sponge"],
+				"row": 8,
+				"prerequisites": ["Sponge","Filter Feeding"],
 				"uniques": ["[+3 Gold] in cities on [Coast] tiles"],
 				"civilopediaText": [
 			{
@@ -439,7 +439,7 @@
 			{
 				"name": "Cocoon",
 				"row": 9,
-				"prerequisites": ["Sexual Reproduction","Flatworm"],
+				"prerequisites": ["Sexual Reproduction","Flatworm","Coral"],
 				"uniques": ["[5]% Food is carried over after population increases [in all cities]"],
 			}
 		]
