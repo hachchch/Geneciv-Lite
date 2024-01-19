@@ -28,7 +28,7 @@
 			},
 			{
 				"name": "Oceanic Anoxic Events",
-				"uniques": ["[-25]% Production when constructing [Fishes] units [in all cities]","[-50]% Production when constructing [Arthropod] units [in all cities]","[+20]% Production when constructing [Amphibian] units [in all cities]"],
+				"uniques": ["[-25]% Production when constructing [Fishes] units [in all cities]","[-50]% Production when constructing [Water Arthropod] units [in all cities]","[+20]% Production when constructing [Amphibian] units [in all cities]"],
 				"row": 4,
 				"column": 3,
 				"requires": ["Global Cooling"],
@@ -256,7 +256,7 @@
 			{
 				"name": "Multicellular on Abyssal Plains",
 				"uniques": ["[Cell] units gain the [Cambrian Multicellular] promotion",
-				"[+1 Gold] from every [Cambrian]","[+1 Gold] from every [Paleoproterozoic]"],
+				"[+1 Gold] from every [Cambrian]","[+1 Gold] from every [Ediacaran]"],
 				"row": 1,
 				"column": 3
 			},
@@ -293,7 +293,7 @@
 				"name": "Wonderful Life Complete",
 				"effect": "+1 Gold from all Cambrian Silurian Devonian Buildings",
 				"uniques": ["[+1 Gold] from all [Cambrian period] buildings",
-				"[+1 Gold] from all [Silurian period] buildings","[+1 Gold] from all [Devonian period] buildings"]
+				"[+1 Gold] from all [Silurian period] buildings","[+1 Gold] from all [Ancient era] buildings"]
 			}
 		]
 	},
