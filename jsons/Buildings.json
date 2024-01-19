@@ -35,7 +35,7 @@
 		"name": "Electrochemical Gradient", // Spontaneous
 		"gold": 5,
 		"uniqueTo": "Spontaneous",
-		"requiredTech": "Nucleotides",
+		"requiredTech": "DNA",
 		"replaces": "Adenosine Triphosphate",
 		"cost": 60,
 		"uniques": ["[+10]% [Gold] [in this city]"]
