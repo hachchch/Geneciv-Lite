@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Route",
+    "description": "Build a road to connect your capital to our city.",
+    "influence": 50,
+    "weightForCityStateType": {
+        "Tribal Biosphere": 1,
+    }
+  },
+  {
+    "name": "Clear Barbarian Camp",
+    "description": "We feel threatened by a Beast Hive near our Diversity. Please take care of it.",
+    "type": "Global",
+    "influence": 50,
+    "minimumCivs": 1,
+      "weightForCityStateType": {
+          "Tribal Biosphere": 3,
+          "Microorganisms Biosphere": 2,
+          "Vegetation Biosphere": 2,
+          "Animal Biosphere": 9,
+          "Wonderful Biosphere": 3
+      }
+  },
+  {
+    "name": "Connect Resource",
+    "description": "In order to make our civilizations stronger, connect [tileResource] to your trade network.",
+      "weightForCityStateType": {
+          "Microorganisms Biosphere": 2,
+          "Vegetation Biosphere": 3
+      }
+  },
+  {
+    "name": "Construct Wonder",
+    "description": "We recommend you to start building [wonder] to show the whole world your civilization strength.",
+      "weightForCityStateType": {
+	"Wonderful Biosphere": 3,
+	      "Microorganisms Biosphere": 0.25,
+	      "Vegetation Biosphere": 1,
+	      "Animal Biosphere": 0.25,
+          "Tribal Biosphere": 0.5
+      }
+  },
+  {
+    "name": "Acquire Great Person",
+    "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
+      "weightForCityStateType": {
+          "Tribal Biosphere": 3
+      }
+  },
+  {
+    "name": "Conquer City State",
+    "description": "It's time to erase the City-State of [cityState] from the map. You will be greatly rewarded for conquering them!",
+    "influence": 80,
+      "weightForCityStateType": {
+          "Hostile": 2,
+          "Friendly": 0.2,
+          "Animal Biosphere": 2
+      }
+  },
+  {
+    "name": "Find Player",
+    "description": "You have yet to discover where [civName] set up their cities. You will be rewarded for finding their territories.",
+    "influence": 35,
+      "weightForCityStateType": {
+          "Microorganisms Biosphere": 3,
+          "Vegetation Biosphere": 2
+      }
+  },
+  {
+    "name": "Find Natural Wonder",
+    "description": "Send your best explorers on a quest to discover Natural Wonders. Nobody knows the location of [naturalWonder] yet.",
+      "weightForCityStateType": {
+	  "Tribal Biosphere": 0.3,
+	  "Wonderful Biosphere": 0.5,
+          "Hostile": 0.3,
+          "Animal Biosphere": 0.5
+      }
+  },
+  {
+    "name": "Give Gold",
+    "description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Energy, it's only a matter of time before we collapse.",
+    "influence": 20,
+    "duration": 30,
+      "weightForCityStateType": {
+          "Tribal Biosphere": 3,
+          "Vegetation Biosphere": 3,
+          "Microorganisms Biosphere": 3.5,
+          "Animal Biosphere": 2,
+          "Wonderful Biosphere": 3
+      }
+  },
+  {
+    "name": "Pledge to Protect",
+    "description": "We need your protection to stop the aggressions of [civName]. By signing a Pledge of Protection, you'll confirm the bond that ties us.",
+    "influence": 20,
+    "duration": 33,
+      "weightForCityStateType": {
+          "Tribal Biosphere": 3.5,
+          "Vegetation Biosphere": 3,
+          "Microorganisms Biosphere": 3,
+          "Animal Biosphere": 2,
+          "Wonderful Biosphere": 3
+      }
+  },
+  {
+    "name": "Contest Culture",
+    "description": "The civilization with the largest Culture growth will gain a reward.",
+    "type": "Global",
+    "duration": 30,
+    "minimumCivs": 3,
+      "weightForCityStateType": {
+          "Tribal Biosphere": 2,
+          "Wonderful Biosphere": 0.5
+      }
+  },
+  {
+    "name": "Contest Faith",
+    "description": "The civilization with the largest Faith growth will gain a reward.",
+    "type": "Global",
+    "duration": 30,
+    "minimumCivs": 3,
+      "weightForCityStateType": {
+          "Tribal Biosphere": 1,
+          "Wonderful Biosphere": 2
+      }
+  },
+  {
+    "name": "Contest Technologies",
+    "description": "The civilization with the largest number of new Evolution reached will gain a reward.",
+    "type": "Global",
+    "duration": 30,
+    "minimumCivs": 3,
+      "weightForCityStateType": {
+	"Wonderful Biosphere": 0.5,
+          "Microorganisms Biosphere": 0.35
+      }
+  },
+  {
+    "name": "Invest",
+    "description": "Our lives are rejoicing thanks to a Biological boom. For a certain amount of time, any Energy donation will yield [50]% extra Influence.",
+    "type": "Global",
+    "influence": 0,
+    "duration": 30,
+    "minimumCivs": 2,
+      "weightForCityStateType": {
+	      "Animal Biosphere": 1.5,
+          "Vegetation Biosphere": 0.75,
+	      "Microorganisms Biosphere": 1
+      }
+  },
+  {
+    "name": "Bully City State",
+    "description": "We are tired of the thriving of [cityState]. If someone were to put them in their place by Demanding Tribute from them, they would be rewarded.",
+    "duration": 30,
+      "weightForCityStateType": {
+	      "Animal Biosphere": 0.3,
+          "Hostile": 2,
+          "Irrational": 1.5,
+          "Friendly": 0.3
+      }
+  },
+  {
+    "name": "Denounce Civilization",
+    "description": "We have been forced to pay tribute to [civName]! We need you to tell the world of their ill deeds.",
+    "duration": 30,
+      "weightForCityStateType": {
+          "Tribal Biosphere": 3,
+          "Vegetation Biosphere": 1.5,
+          "Microorganisms Biosphere": 1.5,
+          "Animal Biosphere": 2.5,
+          "Wonderful Biosphere": 3.5
+      }
+  },
+  {
+    "name": "Spread Religion",
+    "description": "We have heard the tenets of [religionName] and are most curious. Will you send missionaries to teach us about your religion?",
+      "weightForCityStateType": {
+	      "Tribal Biosphere": 1,
+          "Wonderful Biosphere": 3
+      }
+  }
+]

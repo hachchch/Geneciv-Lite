@@ -1,0 +1,2668 @@
+[
+	// Civilians
+	{
+		"name": "Vegetation",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Human Race",
+		"uniques": ["Ordovician","Can design terrestrial environment (such a GrassLand)",
+			"[+25]% tile improvement construction time <in [Hill] tiles> <hidden from users>",
+			// "[-50]% tile improvement construction time <with [1] to [1] neighboring [Vegetation] tiles>", // it should not hidden # not working
+			"[-25]% tile improvement construction time <in [Fresh water] tiles> <hidden from users>",
+			"Can build [GrassLand] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Forests] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>"],
+		"cost": 150,
+		"requiredTech": "First Plant",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Grassland+GrassLand",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Tiles/Grassland+GrassLand",
+				"imageSize": 192
+			},
+		]
+	},
+        {
+                "name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Holocene","Human","Can build [Land] improvements on tiles","Automation is a primary action"],
+		"cost": 800,
+		"requiredTech": "Human Race",
+	},
+        {
+                "name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 102,
+		"uniques": ["Founds a new city","Uncapturable <before discovering [Human Race]>","No sight before discovering Insect","No Sight <hidden from users> <for [Human player]> <before discovering [Spore Plant]>","[-1] Sight <hidden from users> <before discovering [Spore Plant]>"],
+		"hurryCostModifier": 20
+	},
+	// Special Units
+	{
+		"name": "Comet",
+		"unitType": "Disaster",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 12,
+		"cost": 10000,
+		"uniques": ["Unbuildable","Nuclear weapon of Strength [1]",
+			"Blast radius [1]"],
+		// "attackSound": "nuke"
+	},
+	// Boring Billion
+	{
+		"name": "Particles",
+                "unitType": "Particle",
+                "strength": 1,
+                "movement": 1,
+                "cost": 20,
+		"uniques": ["No Sight <hidden from users> <for [Human player]>","[-1] Sight <hidden from users>"],
+		"obsoleteTech": "Amino Acid",
+		"upgradesTo": "Amino Acid",
+		"attackSound": "plays",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Particles",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Particles",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "All creature, including humans, are made up of elements. The cells that make up creature are made of compounds, which are also made of elements. The stones in that area may also become living things if the structure is rearranged.",
+			},
+		]
+        },
+	{
+		"name": "Amino Acid",
+		"unitType": "Particle",
+		"movement": 2,
+		"strength": 1,
+		"cost": 20,
+		"uniques": ["No Sight <hidden from users> <for [Human player]>","[-1] Sight <hidden from users>"],
+		"requiredTech": "Amino Acid",
+		"obsoleteTech": "Eukaryotic Cell",
+		"upgradesTo": "Prokaryote",
+		"attackSound": "plays",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Amino Acid",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Amino Acid",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Amino acids are not creature, but they make up proteins that are important to creature.",
+			},
+		]
+	},
+	{
+		"name": "Prokaryote",
+		"unitType": "Cell",
+		"strength": 2,
+		"movement": 2,
+		"cost": 30,
+		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>","May travel on Water tiles without embarking <hidden from users>"],
+		"requiredTech": "Prokaryotic Cell",
+		"obsoleteTech": "Tissue",
+		"upgradesTo": "Eukaryote",
+		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Prokaryote",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Prokaryote",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This is the first creature. God has a good sense of humor that making many creature so small that they can't be seen.",
+			},
+		]
+	},
+	{
+		"name": "Eukaryote",
+		"unitType": "Cell",
+		"movement": 2,
+		"strength": 8,
+		"cost": 30,
+		"requiredTech": "Eukaryotic Cell",
+		"obsoleteTech": "Tissue",
+		"upgradesTo": "Eumycetozoa",
+		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>","May travel on Water tiles without embarking <hidden from users>"],
+		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Eukaryote",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Eukaryote",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The nucleus at the center of the cell controls various organs. It's like our brain. Also, eukaryotes are much larger than prokaryotes. There is also a lot of DNA.",
+			},
+		]
+	},
+	{
+		"name": "Archaea",
+		"unitType": "Cell",
+		"movement": 2,
+		"strength": 4,
+		"cost": 60,
+		"requiredTech": "Mitosis",
+		"obsoleteTech": "Eukaryotic Cell",
+		"upgradesTo": "Eukaryote",
+		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
+		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Archaea",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Archaea",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Eumycetozoa",
+		"unitType": "Cell",
+		"movement": 2,
+		"strength": 12,
+		"cost": 80,
+		"requiredTech": "Tissue",
+		"obsoleteTech": "Lungfish",
+		"upgradesTo": "Tetrapod",
+		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <hidden from users> <for [non-[Vaalbara]]>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
+		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Eumycetozoa",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Eumycetozoa",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	// Cambrian Entities
+	{
+		"name": "Trilobites",
+		"unitType": "Water Arthropod",
+		"cost": 250,
+		"strength": 32,
+		"obsoleteTech": "Plesiosaur",
+		"movement": 2,
+		"requiredTech": "Trilobite",
+		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
+			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Crustacean",
+		"unitType": "Water Arthropod",
+		"cost": 115,
+		"strength": 28,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Radiodonta",
+		"unitType": "Water Arthropod",
+		"cost": 95,
+		"strength": 24,
+		"obsoleteTech": "Exoskeleton",
+		"upgradesTo": "Crustacean",
+		"movement": 3,
+		"requiredTech": "Articulation",
+		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles <hidden from users>",],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Radiodonta",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Radiodonta",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Amplectobelua",
+		"unitType": "Water Arthropod",
+		"cost": 135,
+		"strength": 24,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Cambrian","Jawless","[+33]% Sttrength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Amplectobelua",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Amplectobelua",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Hurdiidae",
+		"unitType": "Water Arthropod",
+		"cost": 125,
+		"strength": 24,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Cambrian","Jawless","[+100]% Strength <vs [Cell] units>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Hurdiidae",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Hurdiidae",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Tamisiocaris",
+		"unitType": "Water Arthropod",
+		"cost": 115,
+		"strength": 24,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Cambrian","Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Peytoia",
+		"uniqueTo": "Burgess",
+		"replaces": "Crustacean",
+		"unitType": "Water Arthropod",
+		"cost": 120,
+		"strength": 28,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"promotions": ["Oral Cone I"],
+		"uniques": ["Cambrian","Jawless","[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Hallucigenia",
+		"unitType": "Water Arthropod",
+		"cost": 120,
+		"strength": 17,
+		"range": 1,
+		"rangedStrength": 9,
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Cambrian","Jawless","[+500]% Strength <when attacking> <vs cities>","[-1] Sight","[+1] Sight <after discovering [Pigment Spot]>","Only available <after adopting [Lobopodians]>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Hallucigenia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Hallucigenia",
+				"imageSize": 192
+			},
+		]
+	},
+	// Water
+	{
+		"name": "Jellyfish",
+		"unitType": "Water Animal",
+		"cost": 50,
+		"strength": 15,
+		"rangedStrength": 19,
+		"range": 1,
+		"movement": 1,
+		"requiredTech": "Swimming",
+		"obsoleteTech": "Modern Ocean",
+		"upgradesTo": "Modern Jellyfish",
+		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Jellyfish",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Jellyfish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Something like a coral that wandered the ocean was the first animal. They have poisonous nematocysts like sea anemones.",
+			},
+		]
+	},
+	{
+		"name": "Flatworm",
+		"unitType": "Water Animal",
+		"cost": 100,
+		"strength": 19,
+		"movement": 3,
+		"obsoleteTech": "Fish",
+		"upgradesTo": "Fish",
+		"requiredTech": "Flatworm",
+		"uniques": ["Cambrian","Ordovician","Devonian","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Flatworm",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Flatworm",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"uniqueTo": "Burgess",
+		"name": "Pikaia",
+		"replaces": "Flatworm",
+		"unitType": "Water Animal",
+		"cost": 105,
+		"strength": 21,
+		"movement": 3,
+		"obsoleteTech": "Fish",
+		"upgradesTo": "Fish",
+		"requiredTech": "Flatworm",
+		"uniques": ["Cambrian","Ordovician","Devonian","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Pikaia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Pikaia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Fish",
+		"obsoleteTech": "Modern Ocean",
+		"unitType": "Fishes",
+		"cost": 150,
+		"strength": 32,
+		"movement": 2,
+		"requiredTech": "Fish",
+		"uniques": ["Cambrian","Jawless <before discovering [Jaw]>","[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>","Double movement in [Water] <after discovering [Fins]>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Fish",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Fish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "With fins to maneuver the ancient seas, fish evolved from less agile invertebrates and rapidly diversified to take control of the oceans."
+			}
+		]
+	},
+	{
+		"name": "Arthrodira",
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"unitType": "Fishes",
+		"cost": 300,
+		"strength": 40,
+		"movement": 2,
+		"requiredResource": "Super Creature Stock",
+		"requiredTech": "Fish",
+		"uniques": ["Cambrian","Predator","Jawless <before discovering [Jaw]>","[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>","Double movement in [Water] <after discovering [Fins]>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Arthrodira",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Arthrodira",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "during their thriving, the arthrodires were one of the most diverse and numerically successful, if not the most successful, vertebrate orders of the Devonian, occupying a vast spectrum of roles from apex predator to detritus-nibbling bottom dweller. Despite their success, the arthrodires were one of many groups eliminated by the environmental catastrophes of the Late Devonian extinction, allowing other fish such as sharks to diversify into the vacated ecological niches during the Carboniferous period."
+			}
+		]
+	},
+	{
+		"name": "Shark",
+		"obsoleteTech": "Modern Ocean",
+		"unitType": "Fishes",
+		"cost": 340,
+		"strength": 45,
+		"movement": 5,
+		"requiredTech": "Predation",
+		"attackSound": "Splash",
+		"uniques": ["Jurassic","Predator","Can move after attacking","Destroys tile improvements when attacking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Shark",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Shark",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The earliest known sharks appearing over 420 million years ago. Both dangerous and endangered, these powerful predators and sleek swimmers are at the top of the underwater food chain.",
+			},
+		]
+	},
+	{
+		"name": "Dunkleosteus",
+		"upgradesTo": "Shark",
+		"obsoleteTech": "Modern Ocean",
+		"unitType": "Fishes",
+		"cost": 280,
+		"strength": 50,
+		"movement": 5,
+		"requiredResource": "Super Creature Stock",
+		"uniqueTo": "Euramerica",
+		"replaces": "Arthrodira",
+		"requiredTech": "Fish",
+		"uniques": ["Devonian","Predator","[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Dunkleosteus",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Dunkleosteus",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "He was a hunter who ate the overpopulated fish, but unfortunately a mass extinction occurred and his prosperity was short-lived. Extinct at least during the coal period.",
+			},
+		]
+	},
+	{
+		"name": "Modern Jellyfish",
+		"obsoleteTech": "Sailing",
+		"unitType": "Water Animal",
+		"cost": 840,
+		"strength": 50,
+		"rangedStrength": 75,
+		"range": 2,
+		"movement": 2,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles <hidden from users>"],
+		"attackSound": "whoo",
+		"promotions": ["Nematocyst I","Poison I"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Modern Jellyfish",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Modern Jellyfish",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Modern Fish",
+		"obsoleteTech": "Sailing",
+		"unitType": "Modern Fishes",
+		"cost": 860,
+		"strength": 70,
+		"movement": 5,
+		"obsoleteTech": "Anthropocene",
+		"requiredTech": "Modern Ocean",
+		"uniques": ["[1] Sight","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Modern Fish",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Modern Fish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Some fish choose to evolve on land, while others remain in the sea and continue to evolve. Modern fish have shiny scales and huge schools. Tuna is a fairly new aquatic species.",
+			},
+		]
+	},
+	// Amphibian
+	{
+		"name": "Tetrapod",
+		"obsoleteTech": "Anthropocene",
+		"unitType": "Amphibian",
+		"cost": 180,
+		"strength": 24,
+		"movement": 1,
+		"requiredTech": "Lungfish",
+		"attackSound": "crrr",
+		"uniques": ["Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tetrapod",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Some fish gradually adapted to living on land by changing their fins to crawl on the dried ground. The reason for this is that early terrestrial life had no enemies there.",
+			},
+		]
+	},
+	// Reptiles
+	{
+		"name": "Small Reptile",
+		"upgradesTo": "Synapsida",
+		"obsoleteTech": "Mammal",
+		"unitType": "Reptiles",
+		"movement": 2,
+		"cost": 225,
+		"uniques": ["Devonian","Pennsylvanian","Quadrupedal","[+50]% Strength <after discovering [Lung]>","[+1] Movement <after discovering [Legs]>","Can move after attacking <after discovering [Legs]>"],
+		"strength": 24,
+		"requiredTech": "Reptile",
+		"attackSound": "crrr",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Small Reptile",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Small Reptile",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Big Reptile",
+		"unitType": "Reptiles",
+		"movement": 2,
+		"cost": 275,
+		"obsoleteTech": "Dinosaur",
+		"upgradesTo": "Saurischia",
+		"strength": 50,
+		"requiredTech": "Archosauria",
+		"attackSound": "whirrs",
+		"uniques": ["Triassic","Predator","Herbivore","Quadrupedal","Bipedal"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Saurischia",
+		"unitType": "Reptiles",
+		"strength": 66,
+		"cost": 300,
+		"movement": 2,
+		"requiredTech": "Dinosaur",
+		"obsoleteTech": "Eutherians",
+		"attackSound": "Slash",
+		"uniques": ["Triassic","Predator","Bipedal"]
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/HexaRealm/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Theropoda",
+		"unitType": "Reptiles",
+		"strength": 50,
+		"cost": 280,
+		"movement": 2,
+		"uniques": ["Triassic","Avemetatarsalia","Predator","Bipedal","[+40]% Strength <when adjacent to a [Theropoda] unit>"],
+		"requiredTech": "Dinosaur",
+		"attackSound": "Slash",
+		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Theropoda",
+				"imageSize": 192
+			},
+		]
+	},
+	/*{
+		"name": "Pseudosuchia",
+		"unitType": "Reptiles",
+		"strength": 50,
+		"cost": 300,
+		"movement": 2,
+		"uniques": ["Triassic","Bipedal","[+33]% Strength <when defending>","[+80]% <when fighting in [River] tiles>"],
+		"requiredTech": "Dinosaur",
+		"upgradesTo": "Eusuchia",
+		"attackSound": "Slash",
+		"obsoleteTech": "Modern Ocean",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Pseudosuchia",
+				"imageSize": 192
+			},
+		]
+	},
+	*/
+	{
+		"name": "Avemetatarsalia",
+		"unitType": "Reptiles",
+		"strength": 50,
+		"cost": 280,
+		"movement": 2,
+		"uniques": ["Triassic","Quadrupedal","Ignores terrain cost","[+1] Sight"/*,"[+2] Movement <in [Hill] tiles>"*/],
+		"requiredTech": "Dinosaur",
+		"attackSound": "Slash",
+		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Avemetatarsalia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Avemetatarsalia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Sauropoda",
+		"cost": 330,
+		"strength": 45,
+		"rangedStrength": 50,
+		"range": 1,
+		"uniques": ["Triassic","Quadrupedal","Reptiles","Unit will heal every turn, even if it performs an action"],
+		"movement": 2,
+		"obsoleteTech": "Eutherians",
+		"requiredTech": "Dinosaur",
+		"unitType": "Herbivore",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Sauropoda",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Sauropoda",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Mesosaur",
+		"requiredTech": "Diving",
+		"attackSound": "Splash",
+		"obsoleteTech": "Plesiosaur",
+		"cost": 300,
+		"strength": 55,
+		"movement": 3,
+		"unitType": "Water Reptiles",
+		"uniques": ["Triassic","Quadrupedal"],
+	},
+	{
+		"name": "Ichthyosauria",
+		"requiredTech": "Diving",
+		"attackSound": "Splash",
+		"obsoleteTech": "Plesiosaur",
+		"cost": 300,
+		"strength": 50,
+		"movement": 4,
+		"unitType": "Water Reptiles",
+		"uniques": ["Triassic","Predator","Quadrupedal","[+1] Sight"],
+	},
+	{
+		"name": "Plesiosaur",
+		"unitType": "Water Reptiles",
+		"cost": 450,
+		"strength": 65,
+		"movement": 3,
+		"obsoleteTech": "Cetaceans",
+		"uniques": ["Triassic","Predator","Quadrupedal","[+2] Sight"]
+		"requiredTech": "Plesiosaur",
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Plesiosaur",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Plesiosaur2",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Plesiosaur",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Large reptiles that flourished during the Mesozoic Era and filled the Earth made their way to the ocean. Plesiosaurs had long necks, flat bodies, and four fins. that's right. This animal became the starting point for aquatic diapsid reptiles. Also following them comes the Cetacean. By the way, they were the first fossilized reptiles discovered by humans.",
+			},
+		]
+	},
+	{
+		"name": "Ornithischia",
+		"cost": 280,
+		// "obsoleteTech": "Dinosaur",
+		// "upgradesTo": "Sauropoda",
+		"strength": 35,
+		// "rangedStrength": 40,
+		// "range": 1,
+		"uniques": ["Jurassic","Quadrupedal","Reptiles","Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>"],
+		"movement": 2,
+		"requiredTech": "Herbivore",
+		"unitType": "Herbivore",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Herbivore",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Herbivore",
+				"imageSize": 192
+			},
+			{
+				"text": "Herbivores have been around for a long time, but the ornithischian reptiles are unique. They had pelvises like modern birds, and some had long, flat noses like ducks. And the predentary bones were suitable for grazing.",
+			},
+		]
+	},
+	{
+		"name": "Pterosaur",
+		"unitType": "Glider",
+		"range": 2,
+		"interceptRange": 1,
+		"rangedStrength": 68,
+		"strength": 68,
+		"movement": 1,
+		"cost": 380,
+		"requiredTech": "Gliding",
+		"obsoleteTech": "Flying",
+		"upgradesTo": "Archeopteryx",
+		"attackSound": "Woosh"
+		"uniques": ["Triassic","Predator"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Pterosaur",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Pterosaur",
+				"imageSize": 192
+			},
+			{
+				"text": "Pterosaurs are known to be the first vertebrates to glide. And their leathery wings become like wool...",
+			},
+		]
+	},
+	{
+		"name": "Ankylosauria",
+		"unitType": "Reptiles",
+		"strength": 60,
+		"cost": 320,
+		"movement": 1,
+		"requiredTech": "Dinosaur",
+		"obsoleteTech": "Eutherians",
+		"attackSound": "Monster",
+		"uniques": ["Jurassic","Quadrupedal","Armored"],
+		"promotions": ["Ankylosis I"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Triceratops",
+		"unitType": "Reptiles",
+		"cost": 380,
+		"strength": 90,
+		"requiredTech": "Cretaceous Reptiles",
+		"movement": 1,
+		"attackSound": "Monster",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Herbivore","Quadrupedal"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Triceratops",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Triceratops",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Cretaceous Dinosaur",
+		"unitType": "Reptiles",
+		"cost": 360,
+		"strength": 75,
+		"movement": 2,
+		"attackSound": "Monster",
+		"requiredTech": "Cretaceous Reptiles",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Bipedal","[+30]% Strength <when attacking>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cretaceous Dinosaur",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cretaceous Dinosaur",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Ophidia",
+		"unitType": "Reptiles",
+		"strength": 65,
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Grass",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Cretaceous","May withdraw before melee ([33]%)","Unable to pillage tiles","Can move after attacking","Invisible to non-adjacent units","[-2] Sight"],
+		"promotions": ["Poison I"]
+	},
+	{
+		"name": "Eusuchia",
+		"obsoleteTech": "Anthropocene",
+		"unitType": "Reptiles",
+		"strength": 60,
+		"cost": 660,
+		"movement": 2,
+		"attackSound": "Splash",
+		"uniques": ["Cretaceous","Predator","[+150]% <when fighting in [Fresh water] tiles> <hidden from users>",
+		"[+120]% Strength <in [Coastal] tiles>","[+120]% <when fighting in [Coastal] tiles> <hidden from users>",
+		"[+1] Movement <in [Fresh water] tiles>","[+1] Movement <in [Coastal] tiles>",
+		"[+500]% Strength <when defending> <when [Embarked]>"],
+		"requiredTech": "Modern Ocean",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Eusuchia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Eusuchia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Cryptodira",
+		"unitType": "Reptiles",
+		"strength": 35,
+		"movement": 1,
+		"cost": 500,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Cretaceous","Cannot attack","No Sight <when adjacent to a [Enemy] unit>"],
+		"promotions": ["Shell"]
+	},
+	{
+		"name": "Chelonioidea",
+		"unitType": "Water Reptiles",
+		"strength": 40,
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Anthropocene",
+		"attackSound": "whoo",
+		"uniques": ["Cretaceous","Cannot attack"],
+		"promotions": ["Shell"]
+	},
+	// Mammals
+	{
+		"name": "Synapsida",
+		"obsoleteTech": "Eutherians",
+		"cost": 280,
+		"strength": 45,
+		"attackSound": "Slash",
+		"uniques": ["Pennsylvanian","Quadrupedal","[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
+		"movement": 3,
+		"requiredTech": "Mammal",
+		"unitType": "Mammal",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Synapsida",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Synapsida",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The most advanced vertebrates have warm blood, glands and hair. Their birth rate was low, but they were able to survive in most environments. Also, even if a mass extinction were to occur, they would quickly discover new food due to their high brain ability.",
+			},
+		]
+	},
+	{
+		"name": "Cynodontia",
+		"uniqueTo": "The Pangaea",
+		"replaces": "Big Reptile",
+		"unitType": "Mammal",
+		"movement": 2,
+		"cost": 275,
+		"obsoleteTech": "Mammal",
+		"upgradesTo": "Eutheriodontia",
+		"strength": 55,
+		"requiredTech": "Archosauria",
+		"uniques": ["Permian","P-T","Predator","Quadrupedal"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Therocephalia",
+		"uniqueTo": "The Pangaea",
+		"replaces": "Big Reptile",
+		"unitType": "Mammal",
+		"movement": 2,
+		"cost": 275,
+		"obsoleteTech": "Mammal",
+		"upgradesTo": "Eutheriodontia",
+		"strength": 50,
+		"requiredTech": "Archosauria",
+		"uniques": ["Permian","P-T","Predator","Quadrupedal","[+30]% Strength <when attacking>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"replaces": "Synapsida",
+		"name": "Eutheriodontia",
+		"uniqueTo": "The Pangaea",
+		"obsoleteTech": "Eutherians",
+		"cost": 280,
+		"strength": 50,
+		"uniques": ["Permian","Quadrupedal","[+1] Sight","[75]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
+		"movement": 3,
+		"requiredTech": "Mammal",
+		"unitType": "Mammal",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Synapsida",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Synapsida",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The most advanced vertebrates have warm blood, glands and hair. Their birth rate was low, but they were able to survive in most environments. Also, even if a mass extinction were to occur, they would quickly discover new food due to their high brain ability.",
+			},
+		]
+	},
+	{
+		"name": "Glires",
+		"unitType": "Mammal",
+		"strength": 45,
+		"uniques": ["Paleocene","[225]% Strength <vs cities>","All healing effects doubled"],
+		"cost": 400,
+		"movement": 3,
+		"obsoleteTech": "Anthropocene",
+		"requiredTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Glires",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Glires",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Feliform",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 450,
+		"strength": 80,
+		"movement": 3,
+		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
+		"uniques": ["Eocene","Predator","[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Feliform",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Feliform",
+				"imageSize": 192
+			},
+			{
+				"text": "After Pleistocene",
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Feliform-Pliocene",
+				"imageSize": 192
+			},
+			{
+				"text": "Cats, known as cute pets, are apex predators in the wild. African lions, American pumas, Asian tigers, and mountain snow leopards are all ferocious hunters, without domesticated felis catus.",
+			},
+		]
+	},
+	{
+		"name": "Caniform",
+		"unitType": "Mammal",
+		"cost": 450,
+		"obsoleteTech": "Anthropocene",
+		"strength": 80,
+		"movement": 3,
+		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
+		"uniques": ["Eocene","Predator","[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Caniform",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Caniform",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Horse",
+		"cost": 450,
+		"requiredTech": "Eutherians",
+		"obsoleteTech": "Anthropocene",
+		"attackSound": "horse"
+		"strength": 60,
+		"movement": 3,
+		"unitType": "Mammal",
+		"uniques": ["Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Horse",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Horse",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Chiroptera",
+		"unitType": "Air Mammal",
+		"strength": 66,
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Eocene","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
+		"cost": 420,
+		"movement": 3,
+		"requiredTech": "Bat",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Chiroptera",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Chiroptera",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Dolphin",
+		"unitType": "Water Mammal",
+		"strength": 75,
+		"movement": 4,
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Oligocene","Predator"],
+		"requiredTech": "Cetaceans",
+		"cost": 450,
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Dolphin",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Dolphin",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Kangaroos",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 460,
+		"strength": 75,
+		"movement": 2,
+		"requiredTech": "Placenta",
+		"attackSound": "throw",
+		"uniques": ["Miocene","[25]% Strength when stacked with [Land]","[+150]% to Flank Attack bonuses"]
+	},
+	{
+		"name": "Platypus",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 460,
+		"strength": 60,
+		"movement": 2,
+		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
+		"uniques": ["Miocene","Transfer Movement to [Embarked]","May attack when embarked","[+50]% Strength <when attacking> <vs [Embarked] units>"]
+	},
+	{
+		"name": "Boar",
+		"cost": 450,
+		"requiredTech": "Eutherians",
+		"attackSound": "Boar",
+		"strength": 70,
+		"range": 1,
+		"rangedStrength": 70,
+		"movement": 4,
+		"obsoleteTech": "Anthropocene",
+		"unitType": "Mammal",
+		"uniques": ["Pleistocene","Ungulates","[+100]% to Flank Attack bonuses"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Boar",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Boar",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Koala",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 460,
+		"strength": 80,
+		"movement": 1,
+		"requiredTech": "Placenta",
+		"attackSound": "Slash",
+		"uniques": ["Pleistocene","All healing effects doubled <in [Forests] tiles>","All healing effects doubled <in [Forests] tiles>"]
+	},
+	// Wise Animals
+	{
+		"name": "Ape",
+		"unitType": "Hominiae",
+		"cost": 450,
+		"strength": 50,
+		"movement": 3,
+		"requiredTech": "Ape",
+		"obsoleteTech": "Homo Habilis",
+		"uniques": ["Miocene","All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Ape",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Ape",
+				"imageSize": 192
+			},
+			{
+				"text": "The advancement in primate evolution, the apes of the Hominidae family are ancestors of the modern human's earliest ancestors. Divergent branches of evolution created both humans and the modern great apes.",
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "SecretImages/Monkey Dance!",
+				"imageSize": 200
+			},
+			{
+				"text": "Woooow You found he, this is hidden element:) This weakest beast is standing on its head in search of a new normal. Please evolve him just now! Although they are currently the weakest, but they may deviate from the predatory nature of the fittest and become the rulers of this universe abd they travel through space!",
+			},
+		]
+	},
+	{
+		"name": "Mankind",
+		"unitType": "Hominiae",
+		"cost": 500,
+		"movement": 2,
+		"strength": 50,
+		"attackSound": "nonmetalhit",
+		"uniques": ["Pliocene","[500]% Strength <vs [Glires] units>"],
+		"requiredTech": "Australopithecus",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mankind",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Mankind",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Thrower",
+		"unitType": "Hominiae",
+		"cost": 590,
+		"movement": 2,
+		"range": 2,
+		"strength": 50,
+		"rangedStrength": 90,
+		"uniques": ["Pleistocene","[350]% Strength <vs [Glires] units>"],
+		"requiredTech": "Stone Tools",
+		"attackSound": "Stone",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Thrower",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Thrower",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Tribesman",
+		"unitType": "Human",
+		"uniques": ["Pleistocene","[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>"],
+		"strength": 50,
+		"movement": 2,
+		"attackSound": "nonmetalhit",
+		"cost": 650,
+		"requiredTech": "Homo Habilis",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tribesman",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Archer",
+		"unitType": "Human",
+		"requiredTech": "Advanced Game",
+		"cost": 800,
+		"Range": 2,
+		"rangedStrength": 135,
+		"attackSound": "arrow",
+		"strength": 100,
+		"movement": 2,
+		"uniques": ["Pleistocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Archer",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Sapiens Warrior",
+		"unitType": "Human",
+		"attackSound": "nonmetalhit",
+		"cost": 700,
+		"requiredTech": "Homo Sapiens",
+		"strength": 135,
+		"movement": 2,
+		"uniques": ["Holocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Sapiens Warrior",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Neanderthalensis Warrior",
+		"unitType": "Human",
+		"attackSound": "nonmetalhit",
+		"cost": 750,
+		"requiredTech": "Homo Neanderthalensis",
+		"strength": 170,
+		"movement": 2,
+		"uniques": ["Holocene","[-80]% Strength <vs [Human] units>"],
+		"obsoleteTech": "Homo Sapiens Sapiens",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Neanderthalensis Warrior",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Neanderthalensis Warrior",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Spearman",
+		"cost": 800,
+		"attackSound": "metalhit",
+		"requiredTech": "War",
+		"obsoleteTech": "Urbanization",
+		"unitType": "Human",
+		"strength": 170,
+		"movement": 2,
+		"uniques": ["Holocene","[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Spearman",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Spearman",
+				"imageSize": 192
+			},
+		]
+	},
+	// Aves
+	{
+		"name": "Archeopteryx",
+		"unitType": "Birds",
+		"range": 4,
+		"rangedStrength": 70,
+		"interceptRange": 4,
+		"strength": 70,
+		"movement": 1,
+		"cost": 450,
+		"requiredTech": "Flying",
+		"obsoleteTech": "Modern Birds",
+		"upgradesTo": "Eagle",
+		"attackSound": "Woosh",
+		"uniques": ["Jurassic","Predator"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Archeopteryx",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Archeopteryx",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Eagle",
+		"unitType": "Birds",
+		"range": 6,
+		"rangedStrength": 90,
+		"strength": 90,
+		"movement": 1,
+		"cost": 500,
+		"obsoleteTech": "Anthropocene",
+		"requiredTech": "Modern Birds",
+		"attackSound": "Woosh",
+		"uniques": ["Eocene","Predator","[+25]% Strength <vs [Land] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Eagle",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Eagle",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Galliform",
+		"unitType": "Aves",
+		"interceptRange": 2,
+		"strength": 65,
+		"movement": 2,
+		"cost": 500,
+		"attackSound": "crrr",
+		"requiredTech": "Modern Birds",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/HexaRealm/Units/Galliform",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Charadriiformes",
+		"unitType": "Birds",
+		"range": 7,
+		"rangedStrength": 70,
+		"strength": 70,
+		"movement": 1,
+		"cost": 500,
+		"obsoleteTech": "Anthropocene",
+		"requiredTech": "Modern Ocean",
+		"attackSound": "Woosh",
+		"uniques": ["Eocene","Predator","[+33]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
+	},
+	{
+		"name": "Crow",
+		"unitType": "Birds",
+		"interceptRange": 5,
+		"range": 5,
+		"rangedStrength": 65,
+		"strength": 65,
+		"movement": 1,
+		"cost": 500,
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [10]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>"],
+		"requiredTech": "Modern Birds",
+		"attackSound": "Woosh",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crow",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Crow",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Raphus",
+		"unitType": "Aves",
+		"interceptRange": 2,
+		"strength": 70,
+		"movement": 2,
+		"cost": 500,
+		"attackSound": "crrr",
+		"requiredTech": "Modern Birds",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Birds","Bipedal","Holocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","Only available <before the [Medieval era]>"]
+	},
+	// Great Units
+	{
+		"name": "Anomalocaris",
+		"cost": 250,
+		"unitType": "Water Arthropod",
+		"strength": 38,
+		"movement": 2,
+		"attackSound": "Splash",
+		"promotions": ["Frontal Appendage I"],
+		"uniques": ["Cambrian","Predator","Never appears as a Barbarian unit <hidden from users>"],
+		"requiredResource": "Super Creature Stock",
+		"obsoleteTech": "Predation",
+		"requiredTech": "Articulation",
+	},
+	{
+		"name": "Megalodon",
+		"obsoleteTech": "Plesiosaur",
+		"requiredTech": "Predation",
+		"unitType": "Fishes",
+		"cost": 500,
+		"strength": 65,
+		"movement": 4,
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "Splash",
+		"uniques": ["Miocene","Predator","Never appears as a Barbarian unit <hidden from users>","Destroys tile improvements when attacking <hidden from users>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Megalodon",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Mosasaur",
+		"unitType": "Reptiles",
+		"cost": 940,
+		"strength": 100,
+		"requiredTech": "Plesiosaur",
+		"movement": 2,
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "Whoosh",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Predator","Never appears as a Barbarian unit"],
+		"promotions": ["Large Body"],
+	},
+	{
+		"name": "Tyrannosaurus",
+		"unitType": "Reptiles",
+		"cost": 950,
+		"strength": 100,
+		"requiredTech": "Cretaceous Reptiles",
+		"movement": 2,
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "Monster",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Predator","Bipedal","[+50]% Strength <vs [Armored] units> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Strong Neck","Large Body"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tyrannosaurus",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Giganotosaurus",
+		"unitType": "Reptiles",
+		"cost": 1275,
+		"strength": 150,
+		"requiredTech": "Cretaceous Reptiles",
+		"movement": 2,
+		"attackSound": "Monster",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Predator","Bipedal","Consumes [3] [Super Creature Stock]","Never appears as a Barbarian unit"],
+		"promotions": ["Large Body III"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tyrannosaurus",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Giant Squid",
+		"unitType": "Water Animal",
+		"cost": 1680,
+		"strength": 250,
+		"rangedStrength": 100,
+		"range": 2,
+		"movement": 2,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Human Race",
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "whoo",
+		"uniques": ["Miocene","Predator"]
+		"promotions": ["Nematocyst I","Poison I"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Giant Squid",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Giant Squid",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Tiger", // is it should be Panthera?
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 900,
+		"strength": 120,
+		"movement": 4,
+		"requiredTech": "Eutherians",
+		"attackSound": "Lion",
+		"requiredResource": "Super Creature Stock",
+		"uniques": ["Only available <in cities without a [Warm Environment]> <hidden from users>","Pleistocene","Predator","Never appears as a Barbarian unit"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tiger",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tiger",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Lion",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 900,
+		"strength": 150,
+		"movement": 4,
+		"requiredTech": "Eutherians",
+		"attackSound": "Lion",
+		"requiredResource": "Super Creature Stock",
+		"uniques": ["Only available <in cities with a [Warm Environment]> <hidden from users>","Pleistocene","Predator","Never appears as a Barbarian unit"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Polar Bear",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 1200,
+		"strength": 200,
+		"movement": 3,
+		"requiredTech": "Eutherians",
+		"attackSound": "Lion",
+		"uniques": ["Pleistocene","Predator","Consumes [3] [Super Creature Stock]","Never appears as a Barbarian unit"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	// General
+	{
+		"name": "Parasiticworm",
+		"replaces": "Flatworm",
+		"unitType": "Water Animal",
+		"uniqueTo": "Barbarians",
+		"cost": 220,
+		"strength": 22,
+		"movement": 3,
+		"obsoleteTech": "Fish",
+		"upgradesTo": "Fish",
+		"requiredTech": "Flatworm",
+		"uniques": ["[+190]% Strength <when attacking> <with [20]% chance>","Self-destructs when attacking <with [20]% chance>","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Parasiticworm",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Parasiticworm",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Cordyceps",
+		"unitType": "Cell",
+		"cost": 430,
+		"strength": 30,
+		"movement": 2,
+		"requiredTech": "Insect",
+		"uniqueTo": "Barbarians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cordyceps",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cordyceps",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Cancer",
+		"unitType": "Cell",
+		"movement": 2,
+		"strength": 16,
+		"cost": 95,
+		"replaces": "Eumycetozoa",
+		"uniqueTo": "Barbarians",
+		"requiredTech": "Tissue",
+		"obsoleteTech": "Lungfish",
+		"upgradesTo": "Tetrapod",
+		"uniques": ["[+60]% Strength <vs cities> <when attacking>"]
+		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cancer",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cancer",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Virus",
+		"unitType": "Cell",
+		"movement": 2,
+		"replaces": "Archaea",
+		"uniqueTo": "Barbarians",
+		"strength": 4,
+		"requiredTech": "Eukaryotic Cell",
+		"attackSound": "Cell",
+		"uniques": ["May travel on Water tiles without embarking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Virus",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Virus",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Great Elder",
+		"unitType": "Civilian",
+		"upgradesTo": "Great Prophet",
+		"obsoleteTech": "Urbanization",
+		"uniques": ["Can instantly construct a [Monument] improvement <by consuming this unit>","Can [Spread Religion] [4] times","Removes other religions when spreading religion","May found a religion","May enhance a religion","May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]","Unbuildable", "Religious Unit", "Hidden when religion is disabled","Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great Chief",
+		"unitType": "Civilian",
+		"upgradesTo": "Great General",
+		"obsoleteTech": "Urbanization",
+		"movement": 2,
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles","Can instantly construct a [Outpost] improvement <by consuming this unit>","Great Person - [War]", "Unbuildable", "Uncapturable"],
+	},
+	{
+		"name": "Great Craftsman",
+		"unitType": "Civilian",
+		"upgradesTo": "Great Engineer",
+		"obsoleteTech": "Urbanization",
+		"uniques": ["Can speed up construction of a building","Can instantly construct a [Productive Site] improvement <by consuming this unit>","Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2,
+	},
+	{
+		"name": "Extinctions",
+		"unitType": "Civilian",
+		"uniques": ["Unbuildable","Uncapturable","Limited to [1] per Civilization","Extinction","Cannot be purchased","No Sight","Can be added to [Extinction] in the Capital"],
+		"movement": 2,
+	},
+	{
+		"name": "Carriage",
+		"unitType": "Civilian",
+		"requiredTech": "Plow",
+		"cost": 2250,
+		"movement": 3,
+		"uniques": ["Can build [Road] improvements on tiles","Uncapturable","Can carry [1] [Barista] units","Can move immediately once bought"],
+	},
+	{
+		"name": "Chariot",
+		"unitType": "Husbandried",
+		"requiredTech": "Plow",
+		"cost": 2250,
+		"movement": 3,
+		"strength": 200,
+		"uniques": ["Can carry [2] [Barista] units","Cannot attack"],
+	},
+	{
+		"name": "Battering Ram",
+		"unitType": "Siege",
+		"strength": 140,
+		"requiredTech": "Gear",
+		"cost": 2250,
+		"movement": 2,
+		"uniques": ["[+50]% Strength <vs cities>"]
+	},
+	{
+		"name": "cavalry",
+		"unitType": "Husbandried",
+		"cost": 2200,
+		"requiredTech": "Animal Husbandry",
+		"stregth": 60,
+		"movement": 3,
+	},
+	{
+		"name": "Siege Tower",
+		"unitType": "Siege",
+		"cost": 2500,
+		"rangedStrength": 150,
+		"strength": 200,
+		"range": 2,
+		"movement": 2,
+		"requiredTech": "Mathematics",
+		"uniques": ["Ranged attacks may be performed over obstacles","Can carry [1] [Barista] units"],
+	},
+	{
+		"name": "Barista",
+		"unitType": "Fixed",
+		"cost": 1000,
+		"rangedStrength": 150,
+		"strength": 170,
+		"range": 2,
+		"movement": 1,
+		"requiredTech": "Gear",
+		"uniques": ["For Chariot"],
+	},
+	// Meghalayan Civilized Primates
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": ["May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+	},
+	{
+		"name": "Civil Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 185,
+		"cost": 1000,
+		"requiredTech": "Urbanization",
+		"obsoleteTech": "Bronze Working",
+		"upgradesTo": "Hoplite",
+		"uniques": ["[+50]% Strength <vs [Husbandried] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Hoplite",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 200,
+		"cost": 1200,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Husbandried] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 140,
+		"rangedStrength": 160,
+		"cost": 1500,
+		"requiredTech": "Mathematics",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 280,
+		"cost": 1500,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 200,
+		"cost": 1500,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Knight] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Knight",
+		"unitType": "Husbandried",
+		"movement": 4,
+		"strength": 400,
+		"cost": 2800,
+		"requiredTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 380,
+		"cost": 2800,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Musket Arms",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Rocket Spear",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"range": 2,
+		"strength": 180,
+		"rangedStrength": 1000,
+		"cost": 3000,
+		"requiredTech": "Fire Arms",
+		"attackSound": "cannon",
+		"uniques": ["Free [Pikeman] appears <upon defeating a [Military] unit>","Must set up to ranged attack","Self-destructs when attacking","Destroys tile improvements when attacking"],
+	},
+	{
+		"name": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 480,
+		"cost": 3000,
+		"requiredTech": "Musket Arms",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Line Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 580,
+		"cost": 3850,
+		"requiredTech": "Flintlock",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 680,
+		"cost": 4500,
+		"requiredTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 420,
+		"rangedStrength": 560,
+		"range": 3,
+		"cost": 6400,
+		"requiredTech": "Dynamite",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Submarine",
+		"unitType": "Human Water",
+		"movement": 5,
+		"strength": 700,
+		"rangedStrength": 1200,
+		"cost": 6500,
+		"requiredTech": "Refrigeration",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Armored Train",
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 825,
+		"rangedStrength": 560,
+		"range": 2,
+		"cost": 6500,
+		"uniques": ["[-75]% Strength <in tiles without [Railroad]>","[+1] Movement <in [Railroad] tiles>","[+1] Movement <in [City center] tiles>","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+		"requiredTech": "Locomotives",
+		"attackSound": "cannon"
+		
+	},
+	{
+		"name": "Mechanized infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 725,
+		"cost": 5000,
+		"requiredTech": "Locomotives",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Armored Infantry",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 870,
+		"cost": 5500,
+		"requiredTech": "Combustion",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 1000,
+		"cost": 6000,
+		"requiredTech": "Replaceable Parts",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 140,
+		"rangedStrength": 220,
+		"cost": 1500,
+		"requiredTech": "Nail",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Galleass",
+		"unitType": "Human Water",
+		"movement": 3,
+		"strength": 320,
+		"rangedStrength": 340,
+		"cost": 2000,
+		"requiredTech": "Telescope",
+		"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 260,
+		"rangedStrength": 360,
+		"cost": 2400,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Recoil Reusion",
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 240,
+		"rangedStrength": 280,
+		"cost": 2400,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Fire Arms",
+		"upgradesTo": "Cannon",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Privateer",
+		"unitType": "Human Water",
+		"movement": 5,
+		"strength": 500,
+		"cost": 3000,
+		"requiredTech": "Ranged Trading",
+		"uniques": ["May capture killed [Human Water] units"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Frigate",
+		"unitType": "Human Water",
+		"movement": 5,
+		"strength": 500,
+		"rangedStrength": 560,
+		"cost": 3700,
+		"requiredTech": "Hydraulically",
+		"obsoleteTech": "Electronics",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Lancer",
+		"unitType": "Husbandried",
+		"movement": 4,
+		"strength": 500,
+		"cost": 3700,
+		"requiredTech": "Manufacture",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 280,
+		"rangedStrength": 400,
+		"cost": 3700,
+		"requiredTech": "Fire Arms",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Gatling Gun",
+		"unitType": "Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 600,
+		"rangedStrength": 600,
+		"cost": 4500,
+		"requiredTech": "Recoil Reusion",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Husbandried",
+		"movement": 4,
+		"strength": 680,
+		"cost": 4500,
+		"requiredTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Triplane",
+		"unitType": "Human Air",
+		"movement": 1,
+		"strength": 700,
+		"rangedStrength": 700,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 6500,
+		"requiredTech": "Flight",
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Human Water",
+		"movement": 5,
+		"strength": 1100,
+		"rangedStrength": 1100,
+		"range": 3,
+		"cost": 7500,
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Machine Gun",
+		"unitType": "Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 1200,
+		"rangedStrength": 1200,
+		"cost": 7000,
+		"requiredTech": "Ballistics",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Anti-Aircraft Gun",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"interceptRange": 2,
+		"strength": 1000,
+		"cost": 7500,
+		"requiredTech": "Ballistics",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter Gunship] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Landship",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 1200,
+		"cost": 7000,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Ballistics",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Human Water",
+		"movement": 6,
+		"strength": 1100,
+		"interceptRange": 2,
+		"cost": 7500,
+		"requiredTech": "Combustion",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Marine",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 1300,
+		"cost": 8000,
+		"requiredTech": "Modern Biotech",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Fighter",
+		"unitType": "Human Air",
+		"movement": 1,
+		"strength": 900,
+		"rangedStrength": 900,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 7500,
+		"requiredTech": "Radar",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Human Air",
+		"movement": 1,
+		"strength": 1300,
+		"rangedStrength": 1300,
+		"range": 10,
+		"cost": 7500,
+		"requiredTech": "Radar",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Paratrooper",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 1300,
+		"cost": 7500,
+		"requiredTech": "Radar",
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tank",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 1400,
+		"cost": 7500,
+		"requiredTech": "Ballistics",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Anti-Tank Gun",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 1000,
+		"cost": 7000,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Helicopter Gunship",
+		"uniques": ["[+200]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Rocket Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 900,
+		"rangedStrength": 1200,
+		"range": 3,
+		"cost": 8500,
+		"requiredTech": "Rocketry",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[+200]% Strength <vs [Armored] units> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Guided Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 3600,
+		"rangedStrength": 3600,
+		"range": 8,
+		"cost": 3000,
+		"requiredTech": "Rocketry",
+		"uniques": ["[-100]% maintenance costs"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 6000,
+		"rangedStrength": 6000,
+		"range": 12,
+		"cost": 20000,
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Nuclear weapon of Strength [2]",
+			"Blast radius [2]"],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Helicopter Gunship",
+		"unitType": "Gunpowder",
+		"movement": 6,
+		"strength": 1200,
+		"cost": 9500,
+		"requiredTech": "Telecommunications",
+		"uniques": ["[+200]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 1400,
+		"cost": 7500,
+		"requiredTech": "Rocketry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 800,
+		"cost": 7500,
+		"requiredTech": "Electronics",
+		"uniques": ["Cannot attack", "Can carry [2] [Human Air] units"]
+	},
+	{
+		"name": "Wanderer",
+		"unitType": "Human",
+		"movement": 4,
+		"strength": 250,
+		"cost": 800,
+		"requiredTech": "Astrolabe",
+		"uniques": ["Cannot attack","Founds a new city <by consuming this unit> <on foreign continents>",
+		"Reveal up to [100] [All] within a [4] tile radius <for [4] movement>"]
+	},
+	{
+		"name": "Navigator",
+		"unitType": "Human Water",
+		"movement": 5,
+		"strength": 300,
+		"cost": 1000,
+		"requiredTech": "Sextant",
+		"uniques": ["Cannot attack",
+		"Reveal up to [100] [Water] within a [8] tile radius <for [5] movement>"]
+	},
+	{
+		"name": "Conquistador",
+		"unitType": "Husbandried",
+		"movement": 4,
+		"strength": 400,
+		"cost": 2700,
+		"requiredTech": "Colonization",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city", "[+2] Sight"],
+		"attackSound": "horse"
+	},
+	// Great  Person
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"No Sight <hidden from users> <for [Human player]>","[-1] Sight <hidden from users>",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+	"movement": 2
+	},
+	//  After Anthropocene
+	{
+		"name": "Blaberidae",
+		"unitType": "Cockroach",
+		"cost": 200,
+		"strength": 38,
+		"requiredTech": "Anthropocene Extinction",
+		"uniques": ["Cretaceous","Bugs","Hexapedal","[+100000]% Strength <vs cities>"],
+	},
+	{
+		"name": "Machinerized-Blaberidae",
+		"unitType": "Cockroach",
+		"cost": 10000,
+		"strength": 8000,
+		"requiredTech": "Anthropocene Extinction",
+		"uniques": ["Cretaceous","AI","Bugs","Hexabipedal"],
+	}
+]

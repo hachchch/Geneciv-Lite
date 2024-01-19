@@ -1,0 +1,565 @@
+// it still need more Nations...
+[
+	{
+		"name": "Spectator",
+		"outerColor": [255, 255, 255]
+		"innerColor": [0, 0, 0]
+	},
+	{
+		"name": "Panspermia",
+		"leaderName": "Anaxagoras",
+		// "leaderName": "",
+		"adjective": ["Panspermian"],
+		"startBias": ["Lakes"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [138,50,70],
+		"innerColor": [255,167,165],
+		"uniqueName": "Germ spread theory",
+		"uniques": ["[+2 Food] [in capital] <before discovering [Sexual Reproduction]>",
+		"[+3 Science] [in all cities] <before discovering [Primordial Soup]>",
+		"When spreading religion to a city, gain [13] times the amount of followers of other religions as [Science]"],
+		"cities": ["Granular Zircons","Priscoan","Narryer Gneiss Terrane","Jack Hills","Xenolith","Guiana Shield"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
+		"name": "Vaalbara",
+		"leaderName": "E. S. Cheney",
+		"adjective": ["Vaalbaran"],
+		"startBias": ["Plains"]
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [128,50,50],
+		"innerColor": [15,0,0],
+		"uniqueName": "Convergent Boundary",
+		"uniques": ["[+100]% [Gold]","[-50]% [Food] [in all cities]",
+			"[+1] Sight <for [Cell] units>","[-1] Movement <for [Cell] units>"],
+		"cities": ["Vaalbara","Pongola","Dharwar Craton","Great Ark","Cyanobacteria City","Cyanobacteria Village","Cyanobacteria Town","Cyano State"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
+		"name": "Spontaneous",
+		"leaderName": "Aristotelēs",
+		"adjective": ["Spontaneousian"],
+		"startBias": ["Avoid [Cold]"]
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [133,118,126],
+		"innerColor": [255,255,255],
+		"uniqueName": " The Embryo of Life",
+		"uniques": ["[+6 Gold] [in all cities] <before discovering [Sexual Reproduction]>",
+			"[+1 Culture] from [Forests] tiles [in all cities]",
+		"[+25]% Natural religion spread [in all cities]",
+		"When spreading religion to a city, gain [20] times the amount of followers of other religions as [Faith]"],
+		"cities": ["Chaotian","Baltic Shield","Rhodope Massif","Pilbara Craton","Kaapvaal Craton","Transvaal Basin"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
+		"name": "Stromatolite",
+		"leaderName": "James Hall",
+		"adjective": ["Stromatolite"],
+		"startBias": ["Plains","Flesh water"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"uniqueName": "Life in Hadean",
+		"uniques": ["[+1 Culture, +1 Science] from [Stone] tiles [in all cities]"],
+		"cities": ["Collenia","Shark Bay","Lagoa Salgada","Laguna de Bacalar","Lake Salda"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
+		"name": "Rodinia",
+		"leaderName": "McMenamin",
+		"adjective": ["Rodinian"],
+		"startBias": ["Avoid [Coastal]"]
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [26,62,78],
+		"innerColor": [172,152,223],
+		"uniqueName": "The Supercontinent",
+		"uniques": ["[+1 Production, +1 Gold, +1 Happiness, +1 Culture] [in all cities]","[+44]% Production when constructing [Settler] units [in all cities]",
+		"[-25]% Culture cost of natural border growth [in all cities]"],
+		"cities": ["Laurentia","Consensus","Amazonia","SWEAT","AUSWUS","AUSMEX","Missing-Link"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
+		"name": "Ediacara",
+		// "leaderName": "Reginald Claude Sprigg", I wonder if it's okay to mention the name of an actual researcher...
+		"leaderName": "Freak the Jellyfish",
+		"adjective": ["Ediacaran"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Our jellyfish will destroy your world soon! Yeah, There's no hostility and reason in them, they just float up and down!",
+		"attacked": "Woah, you wanna crush jellyfish? Well, These cute and capricious jellyfish have super deadly poison, isn't it?",
+		"defeated": "Feel sad, Our Polyp has been eradicated for ever!",
+		"introduction": "Howdy! I'm the most genius Jellyfish!",
+
+		"neutralHello": "Hi there! how are you doing?",
+		"hateHello": "So?",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [160,160,200],
+		"innerColor": [242,242,255],
+		"uniqueName": "Snowball Earth",
+		"uniques": ["[+1 Science] from [Snow] tiles [in all cities]","[+1 Science] from [Ice] tiles [in all cities]",
+			"[+1 Science] from [{Tundra} {non-[Forest]} {non-[Hill]}] tiles [in all cities]",
+			"No Maintenance costs for improvements in [Snow] tiles"],
+		"cities": ["Pannotia","Gaskiers","Baykonurian","Charnia","Cyclomedusa","Tribrachidium","Kimberella","Xenacoelomorpha","Mollusc","Aspidella",
+			"Namesake","Laplandian Tillites","Acanthomorph"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
+		"name": "Burgess",
+		// "leaderName": "Reginald Claude Sprigg",
+		"leaderName": "King Trilobite",
+		"adjective": ["Burgessis"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The Life and Death of Planet Earth, Massive destruction is certain to come with dominant life and climate change... can you survive with your animal's worst genome?",
+		"attacked": "Well, you will see why I'm called 'Wonderful Life'.",
+		"defeated": "No matter what you do, Our biota will be preserved.",
+		"introduction": "Welcome to the honored arthropoda kingdom.",	
+
+		"neutralHello": "Hello.",
+		"hateHello": "Well?",
+		"hateHello": "What are you planning...",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [108,94,202],
+		"innerColor": [176,195,260],
+		"uniqueName": "Cambrian explosion",
+		"uniques": ["[+1 Gold] per every [10] [Science]","[+1 Science] from [Water] tiles [in all cities] <during the [Cambrian period]>","[+1 Science] from [Atoll] tiles [in all cities]"],
+		"cities": ["Marrella","Yohoia","Naraoia","Waptia","Canadaspis","Plenocaris","Molaria","Pikaia","Myllokunmingia","Haikouichthys",
+			"Opabinia","Anomalocaris","Hallucigenia","Odontogriphus"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
+		"name": "United States",
+		"leaderName": "Abraham Lincoln",
+		"adjective": ["American"],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
+		"introduction": "The people of the United States of America welcome you.",
+		"neutralHello": "Good day.",
+		"hateHello": "Well?",
+		"tradeRequest": "Is the following trade of interest to you?",
+
+		"outerColor": [28,51,119],
+		"innerColor": [255,255,255],
+
+		"favoredReligion": "Rationalism",
+		"uniqueName": "Advanced Evolution of Humans",
+		"uniques": ["Provides [1] [Atmosphere]","[+12]% [Science] [in all cities] <after discovering [Anthropocene]>","[+1] Sight <for [Human] units>", "[-50]% Gold cost of acquiring tiles [in all cities] <after discovering [Human Race]>","[+45]% Strength <vs [Human] units> <after discovering [Anthropocene]> <for [Human] units>"],
+		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+		"spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+	},
+	{
+		"name": "Sahelanthropus",
+		"leaderName": "Orrorin",
+		"adjective": ["Sahelanthropus"],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "Ooga BoogaOoga Booga!",
+		"attacked": "Ooga Booga!",
+		"defeated": "Ooga Booga.",
+		"introduction": "Ooga Booga.",
+		"neutralHello": "Ooga Booga.",
+		"hateHello": "Ooga Booga!",
+		"tradeRequest": "Is the following trade of interest to you?",
+
+		"outerColor": [46,0,36],
+		"innerColor": [152,132,114],
+
+		"uniqueName": "Chimpanzee-Human Last Common Ancestor",
+		"uniques": ["Production to [Science] conversion in cities changed by [+10]%",
+			"[1] additional attacks per turn <for [Thrower] units>","[+200]% to Flank Attack bonuses <for [Hominiae] units>"],// Unique Unit Chimpanzee to replaces the any Hominina 
+		"cities": ["Tugen Hills","Ouranopithecus","Larynx","Pharynx","Lucy","Adam","Eve","Chimp Forest","Savanna of Sapiens","Cavemens Cave"],
+		"spyNames": ["Ooga", "Booga", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+	},
+	{
+		"name": "Hirnantian",
+		// "leaderName": "B.B. Bancroft",
+		"leaderName": "Katia Rainbow", // It's a name I came up with on the fly. Maybe it will change.
+		"adjective": ["Hirnantian"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "The Hirnantian is the final internationally recognized stage of the Ordovician Period of the Paleozoic Era. It was of short duration, lasting about 1.4 million years, from 445.2 to 443.8 Ma (million years ago). The early part of the Hirnantian was characterized by cold temperatures, major glaciation, and a severe drop in sea level. In the latter part of the Hirnantian, temperatures rose, the glaciers melted, and sea level returned to the same or to a slightly higher level than it had been prior to the glaciation.", // from wikipedia
+		"startIntroPart2": "",
+		"declaringWar": "All my marine creatures are irritated by your intrusion on their feeding grounds. I have to do for this.",
+		"attacked": "I watched dream of underwater, There was a perfect living. for that, I never die! Protect mother sea, even its foreign evils!",
+		"defeated": "I hope there's a wonderful rainbow to my fossil...",
+		"introduction": "Ooga Booga.",
+		"neutralHello": "How are you doing.",
+		"hateHello": "Hello...?",
+		"tradeRequest": "Is it Reasonably?",
+		"outerColor": [ 112,1,65],
+		"innerColor": [255,188,175],
+		"cities": ["Hirnantian","Bolindian","Porkuni","Wufeng","Gamachian","Ashgill"],
+		"uniqueName": "The Late Ordovician Mass Extinction",
+		"uniques": ["All newly-trained [Water] units [in all cities] receive the [Late Ordovician Climate Change] promotion <during the [Ordovician period]>",
+			"[+71]% Strength <for [Ordovician] units>",
+			"[+22]% Strength <for [Water Animal] units> <before the [Ordovician period]>",
+			"[+49]% Strength <for [Water] units> <before the [Ordovician period]>",
+		"All newly-trained [{non-[Ordovician]} {Water}] units [in all cities] receive the [Ordovician Experience] promotion <starting from the [Silurian period]>"],
+	},
+	{
+		"name": "Euramerica",
+		"leaderName": "B.B. Bancroft",
+		"adjective": ["Euramerican"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"outerColor": [110,80,30],
+		"innerColor": [176,159,250],
+		"cities": ["Laurentia","Baltica","Avalonia","Carolinia","Armorica","Iapetus","Rheic","Antler","Innuitian-Lomonosov","Benthos"],
+		"uniqueName": "River transportation network",
+		"uniques": ["[+1] movement <for [Land] units> <in [Flesh water] tiles>",
+			"[+1 Science] from [{Flesh water} {GrassLand}] tiles [in all cities]",
+		"[+2 Science] from [{Flesh water} {Forests}] tiles [in all cities]"],
+	},
+	{
+		"name": "The Pangaea",
+		"leaderName": "Alfred Lothar Wegener",
+		"adjective": ["Pangaea"],
+		"startBias": ["Avoid [Coastal]"],
+		"preferredVictoryType": "Diplomatic",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"outerColor": [10,100,10],
+		"innerColor": [85,200,100],
+		"cities": ["Gaia","Gondwana","Kazakhstania","Pareiasaurs","Emeishan"],
+		"uniqueName": "Great Tectonics",
+		"uniques": ["[+1 Production] from every [Wonder]",
+		"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+		"Gain [8] Influence with a [{Military} {Land}] gift to a City-State",
+		"Gain [2] Influence with a [{Civilian} {Land}] gift to a City-State"],
+	},
+	{
+		"name": "Famennia",
+		"leaderName": "André Hubert Dumont",
+		"adjective": ["Famennian"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"outerColor": [50,0,0],
+		"innerColor": [209,137,94],
+		"cities": ["Famennia","Clymeniida","Black Shales"],
+		"uniqueName": "Pandemonic Late Devonian",
+		"uniques": ["[+33]% Production when constructing [Devonian] buildings [in all cities]",
+		"[+33]% Production when constructing [Devonian] units [in all cities]",
+		"[+17]% Production when constructing [Devonian] wonders [in all cities]",
+		"[Gold] cost of purchasing [Reptiles] units [-25]%"],
+	},
+	{
+		"name": "Cockroaches Empire",
+		"leaderName": "Fallout Cockroaches",
+		"adjective": ["Cockroaches"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"outerColor": [10,10,100],
+		"innerColor": [85,100,200],
+		"cities": ["Amasia","Glea","Red Alart","Technofossilia","Cenopotamia","Cysophesaern"],
+		"uniqueName": "Nihilism",
+		"uniques": ["[-100]% unhappiness from the number of cities",
+		"Retain [-100]% of the happiness from a luxury after the last copy has been traded away",
+		"[+100]% Strength <for [Military] units> <in [Fallout] tiles>"],
+	},
+	// Biospheres
+	{
+		"name": "Dickinsonia",
+		"adjective": ["Dickinsoniidae"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,255,51],
+		"cities": ["Dickinsonia"]
+	},
+	{
+		"name": "Lily",
+		"adjective": ["Lilium"],
+		"cityStateType": "Vegetation Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "And so the Lily flower falls to barbaric hands...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [62,197,252],
+		"cities": ["Lily"]
+	},
+	{
+		"name": "Perucetus",
+		"adjective": ["Basilosauridae"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+        "innerColor": [51,51,255],
+		"cities": ["Perucetus"]
+	},
+	{
+		"name": "Tardigrade",
+		"adjective": ["Panarthropoda"],
+		"cityStateType": "Microorganisms Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [168,38,102],
+		"cities": ["Tardigrade"]
+	},
+	{
+		"name": "Ornithurans",
+		"adjective": ["Ornithurae"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Malay people obey you, but do not think this is over...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Ornithurans"]
+	},
+	{
+		"name": "Araucaria",
+		"adjective": ["Araucariaceae"],
+		"cityStateType": "Vegetation Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [204,102,0],
+		"cities": ["Araucaria"]
+	},
+	{
+		"name": "Rhynie", // Milan
+		"adjective": ["Rhynie Chert"],
+		"cityStateType": "Vegetation Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185,132,66],
+		"uniques": ["Devonian Biosphere"],
+		"cities": ["Rhynie"]
+	},
+	{
+		"name": "Hunsrück",
+		"adjective": ["Hunsrück"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51,102,0],
+		"uniques": ["Devonian Biosphere"],
+		"cities": ["Hunsrück"]
+	},
+	{
+		"name": "Hemudu",
+		"adjective": ["Ancient Chinese"],
+		"cityStateType": "Tribal Biosphere", // Tribal? Civilization?
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,153],
+		"cities": ["Hemudu"]
+	},
+	{
+		"name": "Kaili",
+		"adjective": ["Kaili Biota"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,178,102],
+		"uniques": ["Cambrian Biosphere"],
+		"cities": ["Kaili"]
+	},
+	{
+		"name": "Orsten",
+		"adjective": ["Orsten Fauna"],
+		"cityStateType": "Microorganisms Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [96,96,96],
+		"uniques": ["Cambrian Biosphere"],
+		"cities": ["Orsten"]
+	},
+	{
+		"name": "Emu Bay",
+		"adjective": ["Emu Bay Shale"],
+		"cityStateType": "Wonderful Biosphere",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This biosphere serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,224],
+		"uniques": ["Cambrian Biosphere"],
+		"cities": ["Emu Bay"]
+	},
+	{
+		"name": "Sirius Passet",
+		"adjective": ["Sirius Passet Biota"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Halkieria.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211, 220, 103],
+		"uniques": ["Cambrian Biosphere"],
+		"cities": ["Sirius Passet"]
+	},
+	{
+		"name": "Maotianshan",
+		"adjective": ["Maotianshan Shales"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,204,204],
+		"uniques": ["Cambrian Biosphere"],
+		"cities": ["Maotianshan"]
+	},
+	{
+		"name": "Cryogenia",
+		"adjective": ["Cryogenian"],
+		"cityStateType": "Vegetation Biosphere",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
+		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,69,0],
+		"uniques": ["Neoproterozoic Biosphere"],
+		"cities": ["Cryogenia"]
+	},
+	{
+		"name": "Mazon Creek",
+		"adjective": ["Mazon Creek Fossil"],
+		"cityStateType": "Vegetation Biosphere",
+
+		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,255,128],
+		"uniques": ["Carboniferous Biosphere"],
+		"cities": ["Mazon Creek"]
+	},
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,12,12],
+		"uniques": ["[+40]% Strength <when defending>","[+2] Sight <for [Cell] units>","[+2] Sight <for [Particle] units>","Can only heal by pillaging"]
+	}
+]

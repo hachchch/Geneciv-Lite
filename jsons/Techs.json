@@ -1,0 +1,2207 @@
+[
+	{
+		"columnNumber": 0,
+                "era": "Cryptic era",
+                "techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Home Star",
+				"row": 5,
+				"quote": "The Sun is the star at the center of the Solar System. It is a massive, hot ball of plasma, inflated and heated by energy produced by nuclear fusion reactions at its core. Part of this internal energy is emitted from its surface as light, ultraviolet, and infrared radiation, providing most of the energy for life on Earth.",
+				"uniques": ["The Sun","Starting tech","Instantly provides [3800] [Temperature]"],
+			}
+                ]
+        },
+	{
+		"columnNumber": 1,
+                "era": "Cryptic era",
+                "techCost": 40,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Planet Earth",
+				"row": 5,
+				"prerequisites": ["Home Star"],
+				"uniques": ["[+100]% growth [in all cities]"],
+				"quote": "This is the planet we live on. Although it is still a ball of magma, it has already met the miraculous conditions for growing life.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Planet Earth",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This is the planet we live on. Although it is still a ball of magma, it has already met the miraculous conditions for growing life.",
+			}
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Hadean eon",
+		"techCost": 50,
+		"buildingCost": 50,
+		"wonderCost": 125,
+		"techs": [
+			{
+				"name": "Primordial Soup",
+				"row": 5,
+				"prerequisites": ["Planet Earth"],
+				"uniques": ["Instantly provides [5000] [Oxygen]","Instantly provides [5000] [Atmosphere]","Instantly provides [500000] [Water]","Instantly provides [5000] [Temperature]"],
+				"quote": "The primitive Earth's surface layers, carbon, hydrogen, water vapour, and ammonia reacted to form the first organic compounds.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Primordial Soup",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The primitive Earth's surface layers, carbon, hydrogen, water vapour, and ammonia reacted to form the first organic compounds.",
+			}
+				]
+			},
+			{
+				"name": "Moon",
+				"row": 3,
+				"prerequisites": ["Planet Earth"],
+				"uniques": ["[+50]% growth [in all cities]"],
+				"quote": "The moon causes the tides. This is important because it relates to changes in sea level and fluid flow, but there are still many mysteries about how the moon was born. In many cases, it is said that it was created by the impact of a giant meteorite, and that it separated from the earth, but there is also a theory that it was created by the Sumerians.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Moon",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The moon gravitationalfield causes the Earth tides. This is important because it relates to changes in sea level and fluid flow, but there are still many mysteries about how the moon was born. In many cases, it is said that it was created by the impact of a giant meteorite, and that it separated from the earth, but there is also a theory that it was created by the Sumerians.",
+			}
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Hadean eon",
+		"techCost": 60,
+		"buildingCost": 60,
+		"wonderCost": 150,
+		"techs": [
+			{
+				"name": "Amino Acid",
+				"row": 6,
+				"prerequisites": ["Primordial Soup"],
+				"quote": "Amino acids are not creature, but they make up proteins that are important to creature.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Amino Acid",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Amino acids are not creature, but they make up proteins that are important to creature.",
+			}
+				]
+			},
+			{
+				"name": "Nucleotides",
+				"row": 4,
+				"prerequisites": ["Primordial Soup"],
+				"quote": "Nucleotides are organic molecules composed of a nitrogenous base, a pentose sugar and a phosphate.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Nucleotides",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Nucleotides are organic molecules composed of a nitrogenous base, a pentose sugar and a phosphate.",
+			}
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Hadean eon",
+		"techCost": 60,
+		"buildingCost": 70,
+		"wonderCost": 150,
+		"techs": [
+			{
+				"name": "Protein",
+				"row": 6,
+				"prerequisites": ["Amino Acid"],
+				"quote": "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perform a vast array of functions within organisms, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells and organisms, and transporting molecules from one location to another.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Protein",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perform a vast array of functions within organisms, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells and organisms, and transporting molecules from one location to another.",
+			},
+				]
+			},
+			{
+				"name": "DNA",
+				"row": 4,
+				"prerequisites": ["Nucleotides"],
+				"quote": "The DNA is Deoxyribonucleic acid.DNA is a long polymer made from repeating units called nucleotides.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/DNA",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The DNA is Deoxyribonucleic acid.DNA is a long polymer made from repeating units called nucleotides.",
+			}
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Archean eon",
+		"techCost": 80,
+		"buildingCost": 80,
+		"wonderCost": 175,
+		"techs": [
+			{
+				"name": "Prokaryotic Cell",
+				"row": 5,
+				"prerequisites": ["Protein","DNA"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Prokaryotic Cell",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			}
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Archean eon",
+		"techCost": 100,
+		"buildingCost": 90,
+		"wonderCost": 175,
+		"techs": [
+			{
+				"name": "Mitochondria",
+				"row": 3,
+				"prerequisites": ["Prokaryotic Cell"],
+				// "uniques": ["[+2 Production] [in all cities]"],
+				"quote": "'A mitochondrion (mitochondria) is an organelle found in the cells of most eukaryotes, such as animals, plants and fungi. Mitochondria have a double membrane structure and use aerobic respiration to generate adenosine triphosphate (ATP), which is used throughout the cell as a source of chemical energy.' - Wikipedia",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Mitochondria",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+			{
+				"name": "Nucleus",
+				"row": 7,
+				"prerequisites": ["Prokaryotic Cell"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Nucleus",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+			{
+				"name": "Mitosis",
+				"row": 9,
+				"prerequisites": ["Prokaryotic Cell"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Mitosis",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Paleoproterozoic",
+		"techCost": 110,
+		"buildingCost": 100,
+		"wonderCost": 200,
+		"techs": [
+			{
+				"name": "Eukaryotic Cell",
+				"row": 5,
+				"prerequisites": ["Nucleus","Mitochondria"],
+				"quote": "'You can find microbes everywhere - they are extremely adaptable to conditions, and survive wherever they are.' -Charles Q. Choi",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Eukaryotic Cell",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+			{
+				"name": "Asexual Reproduction",
+				"row": 9,
+				"prerequisites": ["Mitosis"],
+				"uniques": ["Production to [Gold] conversion in cities changed by [+10]%"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Asexual Reproduction",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Paleoproterozoic",
+		"techCost": 120,
+		"buildingCost": 110,
+		"wonderCost": 200,
+		"techs": [
+			{
+				"name": "Tissue",
+				"row": 4,
+				"prerequisites": ["Eukaryotic Cell"],
+			},
+			{
+				"name": "Filter Feeding",
+				"row": 8,
+				"prerequisites": ["Eukaryotic Cell"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Filter Feeding",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Mesoproterozoic",
+		"techCost": 130,
+		"buildingCost": 120,
+		"wonderCost": 225,
+		"techs": [
+			{
+				"name": "Chloroplasts",
+				"row": 1,
+				"prerequisites": ["Tissue"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Chloroplasts",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+			{
+				"name": "Nervous System",
+				"row": 2,
+				"prerequisites": ["Tissue"],
+				// "uniques": ["[+1 Production] [in all cities]","[+2 Happiness] from [City center] tiles [in all cities]"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Nervous System",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+			{
+				"name": "Muscles",
+				"row": 3,
+				"prerequisites": ["Tissue"],
+			},
+			{
+				"name": "Sponge",
+				"row": 5,
+				"prerequisites": ["Tissue","Filter Feeding"],
+				"quote": "'Sponges, the members of the phylum Porifera, are a basal animal clade as a sister of the diploblasts. They are multicellular organisms that have bodies full of pores and channels allowing water to circulate through them, consisting of jelly-like mesohyl sandwiched between two thin layers of cells.' - Wikipedia",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Sponge",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+			{
+				"name": "Sexual Reproduction",
+				"row": 9,
+				"prerequisites": ["Asexual Reproduction"],
+				"uniques": ["Enables conversion of city production to [Science]","[+1 Science] from every specialist [in all cities]"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Sexual Reproduction",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Sexual Reproduction started from 1.2 Billion Years Ago",
+			},
+				]
+			},
+		]
+		
+	},
+	{
+		"columnNumber": 10,
+		"era": "Mesoproterozoic",
+		"techCost": 150,
+		"buildingCost": 130,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Swimming",
+				"row": 5,
+				"prerequisites": ["Muscles","Sponge"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "'Why did it come to this town, what did it come here for? Everyone walking outside are all wearing a helmet. Since when was it there, where was it from? No one knows. this is no illusion or immagination, It definitely is right here.' - One of Missing Song called Kurage", // I like this song too much lol
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Swimming",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Translucent, moving objects have been created from polyps that at first glance look like coral. Yes, this is our ancestor.It's cute.",
+			},
+				]
+			},
+			{
+				"name": "Coral",
+				"row": 4,
+				"prerequisites": ["Sponge"],
+				"uniques": ["[+3 Gold] in cities on [Coast] tiles"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Coral",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Neoproterozoic",
+		"techCost": 180,
+		"buildingCost": 140,
+		"wonderCost": 275,
+		"techs": [
+			{
+				"name": "Radial Symmetry",
+				"row": 4,
+				"prerequisites": ["Swimming"],
+				"uniques": ["[+250]% XP gained from combat <for [Jellyfish] units>"],
+			},
+			{
+				"name": "Flatworm",
+				"row": 6,
+				"prerequisites": ["Swimming"],
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Cambrian period",
+		"techCost": 200,
+		"buildingCost": 150,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Bilateral Symmetry",
+				"row": 4,
+				"prerequisites": ["Radial Symmetry","Flatworm"],
+			},
+			{
+				"name": "Articulation",
+				"row": 6,
+				"prerequisites": ["Flatworm"],
+				// "uniques": ["[+25]% XP gained from combat <for [Water Arthropod] units>"],
+			},
+			{
+				"name": "Cocoon",
+				"row": 9,
+				"prerequisites": ["Sexual Reproduction","Flatworm"],
+				"uniques": ["[5]% Food is carried over after population increases [in all cities]"],
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Cambrian period",
+		"techCost": 245,
+		"buildingCost": 175,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Exoskeleton",
+				"row": 6,
+				"prerequisites": ["Articulation","Bilateral Symmetry"],
+			},
+			{
+				"name": "Vertebrate",
+				"row": 8,
+				"quote": "Vertebrae are bones that protect the spinal cord.",
+				"prerequisites": ["Articulation"],
+			},
+			{
+				"name": "Heart",
+				"row": 4,
+				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
+				"prerequisites": ["Bilateral Symmetry"],
+			},
+			{
+				"name": "Nerve Cord",
+				"row": 2,
+				"prerequisites": ["Bilateral Symmetry","Nervous System"],
+				// "uniques": ["[+1 Gold] per [5] population [in capital]"]
+			},
+			{
+				"name": "Pigment Spot",
+				"row": 3,
+				"prerequisites": ["Bilateral Symmetry"],
+				"uniques": ["+1 sight for Water Animals"]
+			},
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Silurian period",
+		"techCost": 350,
+		"buildingCost": 200,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Eye",
+				"row": 3,
+				"prerequisites": ["Exoskeleton","Pigment Spot"],
+				"uniques": ["+1 sight for Crustacean and Fish"]
+			},
+			{
+				"name": "First Plant",
+				"row": 1,
+				"prerequisites": ["Chloroplasts","Exoskeleton"],
+			},
+			{
+				"name": "Fish",
+				"row": 6,
+				"uniques": ["They are still jawless fishes (-25% Attack Strength) but after you discovering Jaw, their debuff will disappear"],
+				"prerequisites": ["Exoskeleton","Vertebrate","Heart"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Fish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+			{
+				"name": "Trilobite",
+				"row": 8,
+				"prerequisites": ["Exoskeleton"],
+				"uniques": ["[+50]% Production when constructing [Water Arthropod] units [in all cities]"]
+			}
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Silurian period",
+		"techCost": 440,
+		"buildingCost": 225,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Gills",
+				"row": 5,
+				"prerequisites": ["Fish"],
+				"uniques": ["Become half of the oxygen consumed by the fish unit."]
+			},
+			{
+				"name": "Spore Plant",
+				"row": 1,
+				"prerequisites": ["First Plant"],
+				"uniques": ["Give sight to settlers","[+1 Food] from [Grassland] tiles [in all cities]",
+				"[+1 Production] from [Plains] tiles [in all cities]"]
+			},
+			{
+				"name": "Fins",
+				"row": 4,
+				"prerequisites": ["Fish"],
+				"uniques": ["Improve Fishes Mobility"]
+			},
+			{
+				"name": "Cold Blooded",
+				"row": 6,
+				"prerequisites": ["Fish"],
+			},
+			{
+				"name": "Jaw",
+				"row": 7,
+				"prerequisites": ["Fish"],
+				"uniques": ["[+1 Food] from [{Coast} {Fish}] tiles [in all cities]"],
+			},
+			{
+				"name": "Fish Egg",
+				"row": 9,
+				"prerequisites": ["Fish","Cocoon"],
+				"uniques": ["[5]% Food is carried over after population increases [in all cities]","[+1 Food] from [{unimproved} {Fresh water}] tiles [in all cities]"]
+			},
+			{
+				"name": "Excretion Opening",
+				"row": 8,
+				"prerequisites": ["Fish"]
+				"uniques": ["[+1 Food] from [Water] tiles [in all cities]"],
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Ancient era",
+		"techCost": 480,
+		"buildingCost": 250,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Medulla Oblongata",
+				"row": 2,
+				"prerequisites": ["Nerve Cord","Gills","Eye"],
+				"uniques": ["[+1 Gold] from [Fish] tiles [in all cities]","[+1 Gold] from [Ocean] tiles [in all cities]"],
+				"quote": "medulla oblongata is anterior and partially inferior to the cerebellum. It is a cone-shaped neuronal mass responsible for autonomic (involuntary) functions, ranging from vomiting to sneezing.",
+			},
+			{
+				"name": "Fern",
+				"row": 1,
+				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
+				"prerequisites": ["Spore Plant"],
+				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
+			},
+			{
+				"name": "Lungfish",
+				"row": 6,
+				"prerequisites": ["Gills","Cold Blooded"],
+				"quote": "Some fish gradually adapted to living on land by changing their fins to crawl on the dried ground. The reason for this is that early terrestrial life had no enemies there.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Lungfish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Some fish gradually adapted to living on land by changing their fins to crawl on the dried ground. The reason for this is that early terrestrial life had no enemies there.",
+			}
+				]
+			},
+			{
+				"name": "Predation",
+				"row": 8,
+				"prerequisites": ["Excretion Opening","Jaw"],
+				"uniques": ["[+1 Food] from [{Ocean} {Fish}] tiles [in all cities]"],
+				"quote": "The jaws that can easily crush living things and the high excretion ability have designed a monster that can swallow other living things whole.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Predation",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The jaws that can easily crush living things and the high excretion ability have designed a monster that can swallow other living things whole.",
+			}
+				]
+			},
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Carboniferous period",
+		"techCost": 570,
+		"buildingCost": 300,
+		"wonderCost": 450,
+		"techs": [
+			{
+				"name": "Reptile",
+				"row": 6,
+				"prerequisites": ["Lungfish","Medulla Oblongata"],
+				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
+			},
+			{
+				"name": "Insect",
+				"row": 1,
+				"prerequisites": ["Fern","Lungfish"],
+				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
+				"quote": "Once invertebrates were brought to land, they rapidly evolved at a rate unmatched by vertebrates. The secret lies in their low metabolism and high birth rate. And because the lungs are not used, the blood is not red. They account for 53% of all living creatures in terms of the number of discovered species that exist today.",
+			},
+			{
+				"name": "Legs",
+				"row": 4,
+				"prerequisites": ["Fins","Lungfish"],
+				"uniques": ["Improve Lungfishes Move Speed","Enables Open Borders agreements","[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"],
+				"quote": "Fins were not needed on land, so they evolved into legs. As evidence of this, the skeletons of the legs and fins are very similar.",
+			},
+			{
+				"name": "Water Tight",
+				"prerequisites": ["Lungfish"]
+				"row": 3,
+				"uniques": ["Enables [Embarked] units to enter ocean tiles","[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
+			},
+			{
+				"name": "Lung",
+				"row": 5,
+				"prerequisites": ["Lungfish"],
+				"uniques": ["[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"]
+			},
+		]
+	},
+	{
+		"columnNumber": 18,
+		"era": "Permian period",
+		"techCost": 600,
+		"buildingCost": 325,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Herbivore",
+				"row": 3,
+				"prerequisites": ["Insect","Reptile"],
+			},
+			{
+				"name": "Egg Shell",
+				"row": 9,
+				"uniques": ["Enables Research agreements","[5]% Food is carried over after population increases [in all cities]"],
+				"prerequisites": ["Reptile","Fish Egg"],
+			},
+			{
+				"name": "Archosauria",
+				"row": 6,
+				"prerequisites": ["Reptile","Legs","Lung"],
+			},
+			{
+				"name": "Warm Blooded",
+				"row": 4,
+				"prerequisites": ["Lung","Legs","Water Tight"],
+				"uniques": ["[+20]% Strength for cities <when defending>"],
+			},
+			{
+				"name": "Ear",
+				"row": 7,
+				"prerequisites": ["Reptile"],
+				"uniques": ["[+25]% Golden Age length","[+25]% XP gained from combat <for [Land] units>"],
+			},
+		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Mesozoic era",
+		"techCost": 780,
+		"buildingCost": 350,
+		"wonderCost": 550,
+		"techs": [
+			{
+				"name": "Diving",
+				"row": 8,
+				"prerequisites": ["Archosauria","Predation"],
+			},
+			{
+				"name": "Dinosaur",
+				"row": 6,
+				"prerequisites": ["Archosauria","Egg Shell"],
+			},
+			{
+				"name": "Mammal",
+				"row": 3,
+				"prerequisites": ["Warm Blooded","Ear","Herbivore"]
+			},
+			{
+				"name": "Wings",
+				"row": 4,
+				"prerequisites": ["Archosauria"],
+				"uniques": ["[+10]% Strength <for [Herbivore] units>","[+1] movement <for [Avemetatarsalia] units>"],
+			},
+		]
+	},
+	{
+		"columnNumber": 20,
+		"era": "Mesozoic era",
+		"techCost": 850,
+		"buildingCost": 375,
+		"wonderCost": 550,
+		"techs": [
+			{
+				"name": "Gliding",
+				"row": 3,
+				"prerequisites": ["Wings","Dinosaur"],
+			},
+			{
+				"name": "Uterus",
+				"row": 9,
+				"prerequisites": ["Mammal","Egg Shell"],
+				"uniques": ["Enables Defensive Pacts","Production to [Science] conversion in cities changed by [+10]%"],
+			},
+			{
+				"name": "Plesiosaur",
+				"row": 8,
+				"prerequisites": ["Dinosaur","Diving"],
+			},
+			{
+				"name": "Feathers"
+				"row": 4,
+				"prerequisites": ["Wings"],
+				"uniques": ["[+1] Sight <for [Avemetatarsalia] units>"],
+			},
+			{
+				"name": "Hair",
+				"row": 5,
+				"uniques": ["[+10]% Strength <when fighting in [Snow] tiles> <for [Mammal] units>"],
+				"prerequisites": ["Mammal"]
+			},
+			{
+				"name": "Cretaceous Reptiles",
+				"row": 6,
+				"prerequisites": ["Dinosaur"],
+			},
+			{
+				"name": "Glands",
+				"row": 7,
+				"uniques": ["[+10]% Strength <when fighting in [Desert] tiles>","[+10]% Strength <when fighting in [Jungle] tiles>"],
+				"prerequisites": ["Mammal"],
+			},
+		]
+	},
+	{
+		"columnNumber": 21,
+		"era": "Paleogene period",
+		"techCost": 900,
+		"buildingCost": 400,
+		"wonderCost": 800,
+		"techs": [
+			{
+				"name": "Flying",
+				"row": 3,
+				"prerequisites": ["Feathers","Gliding"],
+			},
+			{
+				"name": "Grass",
+				"row": 1,
+				"prerequisites": ["Insect","Gliding"],
+			},
+			{
+				"name": "Eutherians",
+				"row": 6,
+				"prerequisites": ["Hair","Glands"],
+			},
+		]
+	},
+	{
+		"columnNumber": 22,
+		"era": "Paleogene period",
+		"techCost": 950,
+		"buildingCost": 400,
+		"wonderCost": 800,
+		"techs": [
+			{
+				"name": "Bat",
+				"row": 4,
+				"prerequisites": ["Eutherians","Flying"],
+			},
+			{
+				"name": "Modern Birds",
+				"row": 3,
+				"prerequisites": ["Flying"]
+			},
+			{
+				"name": "Flowers",
+				"row": 1,
+				"prerequisites": ["Grass","Flying"],
+			},
+			{
+				"name": "Cetaceans",
+				"row": 8,
+				"prerequisites": ["Plesiosaur","Eutherians"],
+			},
+			{
+				"name": "Primate",
+				"row": 6,
+				"prerequisites": ["Eutherians"],
+				// "uniques": ["[+3 Science] per [5] population [in all cities]"],
+			},
+			{
+				"name": "Neocortex",
+				"row": 2,
+				"prerequisites": ["Eutherians"],
+				// "uniques": ["[+1 Science] per [10] population [in all cities]"],
+			},
+			{
+				"name": "Placenta",
+				"row": 9,
+				"prerequisites": ["Uterus","Eutherians"],
+				"uniques": ["[+5]% Strength <for [Mammal] units> <when defending>","Production to [Science] conversion in cities changed by [+10]%"],
+			},
+		]
+	},
+	{
+		"columnNumber": 23,
+		"era": "Miocene",
+		"techCost": 1000,
+		"buildingCost": 425,
+		"wonderCost": 850,
+		"techs": [
+			{
+				"name": "Ape",
+				"row": 6,
+				"prerequisites": ["Primate","Neocortex"],
+			},
+			{
+				"name": "Learning",
+				"row": 2,
+				"prerequisites": ["Neocortex"],
+			}
+		]
+	},
+	{
+		"columnNumber": 24,
+		"era": "Miocene",
+		"techCost": 1200,
+		"buildingCost": 450,
+		"wonderCost": 850,
+		"techs": [
+			{
+				"name": "Modern Ocean",
+				"row": 8,
+				"prerequisites": ["Cetaceans"],
+			},
+			{
+				"name": "Five Fingers",
+				"row": 5,
+				"prerequisites": ["Ape"],
+			},
+			{
+				"name": "Upright Bipedal Walk",
+				"row": 6,
+				"prerequisites": ["Ape"],
+				"uniques": ["[-1] Movement <for [Ape] units>","[+2] Sight <for [Ape] units>"],
+			},
+			{
+				"name": "Ape Brain",
+				"row": 2,
+				"prerequisites": ["Ape","Learning"],
+				"uniques": ["N e u r o n   A c t i v a t e d",
+					"[+1 Science] per [2] population [in all cities]"],
+			},
+		]
+	},
+	{
+		"columnNumber": 25,
+		"era": "Pliocene",
+		"techCost": 1350,
+		"buildingCost": 475,
+		"wonderCost": 900,
+		"techs": [
+			{
+				"name": "Australopithecus",
+				"row": 6,
+				"prerequisites": ["Upright Bipedal Walk","Five Fingers","Ape Brain"],
+			},
+			{
+				"name": "Opposable Thumb",
+				"row": 5,
+				"prerequisites": ["Upright Bipedal Walk","Five Fingers"],
+			},
+		]
+	},
+	{
+		"columnNumber": 26,
+		"era": "Pliocene",
+		"techCost": 1800,
+		"buildingCost": 500,
+		"wonderCost": 900,
+		"techs": [
+			{
+				"name": "New Ability",
+				"row": 1,
+				"prerequisites": ["Australopithecus"],
+			},
+			{
+				"name": "Homo Habilis",
+				"row": 6,
+				"prerequisites": ["Australopithecus","Opposable Thumb"],
+			},
+			{
+				"name": "Abstract Thinking",
+				"row": 10,
+				"prerequisites": ["Australopithecus"],
+			},
+		]
+	},
+	{
+		"columnNumber": 27,
+		"era": "Pleistocene",
+		"techCost": 2200,
+		"buildingCost": 525,
+		"wonderCost": 950,
+		"techs": [
+			{
+				"name": "Stone Tools",
+				"row": 1,
+				"prerequisites": ["New Ability"],
+			},
+			{
+				"name": "Cave Painting",
+				"row": 10,
+				"prerequisites": ["Abstract Thinking"],
+			},
+			{
+				"name": "Homo Erectus",
+				"row": 6,
+				"prerequisites": ["Homo Habilis"],
+			}
+			{
+				"name": "Homo Ergaster",
+				"row": 7,
+				"prerequisites": ["Homo Habilis"],
+			},
+			{
+				"name": "Homo Heidelbergensis",
+				"row": 5,
+				"prerequisites": ["Homo Habilis"],
+			},
+		]
+	},
+	{
+		"columnNumber": 28,
+		"era": "Pleistocene",
+		"techCost": 2500,
+		"buildingCost": 550,
+		"wonderCost": 950,
+		"techs": [
+			{
+				"name": "Homo Neanderthalensis",
+				"row": 5,
+				"prerequisites": ["Homo Erectus","Homo Heidelbergensis"],
+			},
+			{
+				"name": "Humanization",
+				"row": 6,
+				"prerequisites": ["Homo Erectus"]
+			},
+			{
+				"name": "Advanced Game",
+				"row": 1,
+				"prerequisites": ["Stone Tools"],
+				"quote": "What began with rocks has moved on towards spear tips and arrow heads. Now They are Apex Predator",
+			},
+			{
+				"name": "Fire",
+				"row": 2,
+				"prerequisites": ["Stone Tools"],
+				// "uniques": ["[+100]% construction time for [Remove Forest] improvements"]
+				"quote": "The discovery of fire gave mankind a way to survive the winter, cooked meat and new weapons. Homo ergaster might also have been the earliest hominin to master control of fire.",
+			},
+			{
+				"name": "Where I will gone?",
+				"row": 10,
+				"prerequisites": ["Cave Painting"],
+			},
+			{
+				"name": "Where do we come from?",
+				"row" : 9,
+				"prerequisites": ["Cave Painting"],
+			},
+			{
+				"name": "Homo Sapiens",
+				"row": 7,
+				"prerequisites": ["Homo Erectus","Homo Ergaster"],
+			}
+		]
+	},
+	{
+		"columnNumber": 29,
+		"era": "Holocene",
+		"techCost": 3000,
+		"buildingCost": 575,
+		"wonderCost": 1000,
+		"techs": [
+			{
+				"name": "Homo Sapiens Sapiens",
+				"row": 6,
+				"prerequisites": ["Humanization","Homo Sapiens","Homo Neanderthalensis"],
+				"quote": "It's you.",
+			},
+			{
+				"name": "War",
+				"row": 1,
+				"prerequisites": ["Homo Sapiens","Advanced Game"],
+				"quote": "Homo Genus evolves to exhibit organized behavior. Finally, H. sapiens is capable of the organized violence like a we know. This allows for a new behavior: exclusion of others. As a result, large numbers military group of H.sapiens slaughtered family groups of H. neanderthalensis."
+			},
+			{
+				"name": "Speaking",
+				"row": 2,
+				"prerequisites": ["Homo Neanderthalensis","Fire"],
+				"quote": "Language is a key stone to our thoughts. The ability to talk allows us to communicate with one another, sharing ideas, knowledge and instructions.",
+			},
+			{
+				"name": "Burial",
+				"row": 10,
+				"prerequisites": ["Homo Neanderthalensis","Where I will gone?"],
+			},
+			{
+				"name": "Religion",
+				"row": 9,
+				"prerequisites": ["Homo Sapiens","Where do we come from?"],
+				"uniques": ["Damage is ignored when determining unit Strength <for [Human] units> <after founding a Pantheon>","[+1 Faith] from [City center] tiles [in all cities]"],
+			},
+		]
+	},
+	{
+		"columnNumber": 30,
+		"era": "Holocene",
+		"techCost": 3500,
+		"buildingCost": 600,
+		"wonderCost": 1000,
+		"techs": [
+			{
+				"name": "Human Race",
+				"row": 6,
+				"prerequisites": ["Homo Sapiens Sapiens"],
+			},
+			{
+				"name": "Diplomacy",
+				"row": 2,
+				"prerequisites": ["Homo Sapiens Sapiens","War","Speaking"],
+				"uniques": ["Provides [1] [Negotiation Skill] <upon discovering [Diplomacy]>"]
+					},
+			{
+				"name": "The Culture",
+				"row": 9,
+				"prerequisites": ["Homo Sapiens Sapiens","Religion","Burial"],
+			},
+			{
+				"name": "Morality",
+				"row": 7,
+				"prerequisites": ["Homo Sapiens Sapiens"],
+			},
+			{
+				"name": "Human Brain",
+				"row": "5",
+				"prerequisites": ["Homo Sapiens Sapiens"],
+			},
+		]
+	},
+	{
+		"columnNumber": 31,
+		"era": "Holocene",
+		"techCost": 6250,
+		"buildingCost": 625,
+		"wonderCost": 1050,
+		"techs": [
+			{
+				"name": "Anthropocene",
+				"row": 6,
+				"prerequisites": ["Human Race","Human Brain","Morality","The Culture","Diplomacy"],
+				"quote": "The technology cannot be stopped.",
+				"uniques": ["Life New Order Comes","[+100]% [Production] [in all cities]","[+100]% [Gold] [in all cities]","[+50]% [Happiness] [in all cities]","[-35]% [Food] [in all cities]"]
+			}
+		]
+	},
+	{
+		"columnNumber": 32,
+		"era": "Neolithic",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 6,
+				"prerequisites": ["Anthropocene"],
+				"quote": "Congratulations. After a long evolutionary journey, you gave birth to an intelligent life form. It will be less than 1 million years before they, the one of  primate species, dominate the everything!",
+			},
+		]
+	},
+	{
+		"columnNumber": 33,
+		"era": "Neolithic",
+		"techCost": 6250,
+		"buildingCost": 800,
+		"wonderCost": 2400,
+		"techs": [
+			{
+				"name": "Animal Husbandry",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+			},
+			{
+				"name": "Pottery",
+				"row": 2,
+				"prerequisites": ["Agriculture"],
+			},
+			{
+				"name": "Urbanization",
+				"row": 9,
+				"prerequisites": ["Agriculture"],
+			},
+			{
+				"name": "The Wheel",
+				"row": 7,
+				"prerequisites": ["Agriculture"],
+			},
+		]
+	},
+	{
+		"columnNumber": 34,
+		"era": "Neolithic",
+		"techCost": 6250,
+		"buildingCost": 900,
+		"wonderCost": 2700,
+		"techs": [
+			{
+				"name": "Fertilizer",
+				"row": 4,
+				"prerequisites": ["Animal Husbandry"],
+			},
+			{
+				"name": "Plow",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry","The Wheel"],
+			},
+			{
+				"name": "Mining",
+				"row": 9,
+				"prerequisites": ["Urbanization"],
+			},
+			{
+				"name": "Writing",
+				"row": 10,
+				"prerequisites": ["Urbanization"],
+			},
+			{
+				"name": "Gear",
+				"row": 7,
+				"prerequisites": ["The Wheel","Urbanization"],
+			},
+			{
+				"name": "Calendar",
+				"row": 2,
+				"prerequisites": ["Pottery"],
+			},
+			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["Pottery"],
+				"uniques": ["[+40]% Strength <for [Embarked] units>"],
+			},
+		]
+	},
+	{
+		"columnNumber": 35,
+		"era": "Classical era",
+		"techCost": 6250,
+		"buildingCost": 1000,
+		"wonderCost": 3000,
+		"techs": [
+			{
+				"name": "Optics",
+				"row": 1,
+				"prerequisites": ["Sailing"],
+				"uniques": ["[+1] Sight <for [Embarked] units>"],
+			},
+			{
+				"name": "Alcohol",
+				"row": 4,
+				"prerequisites": ["Fertilizer","Plow"],
+			},
+			{
+				"name": "Bronze Working",
+				"row": 9,
+				"prerequisites": ["Mining"],
+			},
+			{
+				"name": "Paper",
+				"row": 10,
+				"prerequisites": ["Writing"],
+			},
+			{
+				"name": "Mathematics",
+				"row": 7,
+				"prerequisites": ["Gear","Writing"],
+			},
+			{
+				"name": "Masonry",
+				"row": 8,
+				"prerequisites": ["Gear","Mining"],
+			},
+		]
+	},
+	{
+		"columnNumber": 36,
+		"era": "Classical era",
+		"techCost": 6250,
+		"buildingCost": 1100,
+		"wonderCost": 3300,
+		"techs": [
+			{
+				"name": "Arithmetic",
+				"row": 7,
+				"prerequisites": ["Mathematics"],
+			},
+			{
+				"name": "Early Medicine",
+				"row": 3,
+				"prerequisites": ["Alcohol"],
+			},
+			{
+				"name": "Geometry",
+				"row": 6,
+				"prerequisites": ["Mathematics","Paper","Masonry"],
+			},
+			{
+				"name": "Pronounceable Writes",
+				"row": 10,
+				"prerequisites": ["Mathematics","Paper"],
+				"uniques": ["Gain [200] [Science] <upon conquering a city>"],
+			},
+			{
+				"name": "Nail",
+				"row": 8,
+				"prerequisites": ["Masonry","Bronze Working"],
+				"uniques": ["[-10]% tile improvement construction time"],
+			},
+			{
+				"name": "Construction",
+				"row": 9,
+				"prerequisites": ["Mathematics","Masonry"],
+				"uniques": ["[-15]% tile improvement construction time"]
+			},
+			{
+				"name": "Zero",
+				"row": 5,
+				"prerequisites": ["Mathematics"],
+				"uniques": ["[Great Scientist] is earned [20]% faster",
+					"Science gained from research agreements [10]%"]
+			},
+			{
+				"name": "Philosophy",
+				"row": 2,
+				"prerequisites": ["Optics"],
+			},
+			{
+				"name": "Lens",
+				"row": 1,
+				"prerequisites": ["Optics"],
+			},
+		]
+	},
+	{
+		"columnNumber": 37,
+		"era": "Classical era",
+		"techCost": 6250,
+		"buildingCost": 1200,
+		"wonderCost": 3600,
+		"techs": [
+			{
+				"name": "Civil Service",
+				"row": 5,
+				"prerequisites": ["Early Medicine","Philosophy","Construction","Pronounceable Writes"],
+			},
+			{
+				"name": "Iron Working",
+				"row": 7,
+				"prerequisites": ["Construction","Nail"],
+			},
+			{
+				"name": "Theology",
+				"row": 2,
+				"prerequisites": ["Geometry","Philosophy","Early Medicine"],
+			},
+			{
+				"name": "Engineering",
+				"row": 9,
+				"prerequisites": ["Zero","Arithmetic","Construction","Nail"],
+			},
+			{
+				"name": "Telescope",
+				"row": 1,
+				"prerequisites": ["Geometry","Lens"],
+				"uniques": ["[+1] Sight <for [Settler] units>"],
+			},
+		]
+	},
+	{
+		"columnNumber": 38,
+		"era": "Classical era",
+		"techCost": 6250,
+		"buildingCost": 1300,
+		"wonderCost": 3900,
+		"techs": [
+			{
+				"name": "Military",
+				"row": 7,
+				"prerequisites": ["Civil Service","Iron Working"],
+				"uniques": ["[+10]% Strength <when defending> <when fighting in [Friendly Land] tiles>",
+				"[+10]% Strength <when attacking> <when fighting in [Enemy Land] tiles>"],
+			},
+			{
+				"name": "Alchemy",
+				"row": 3,
+				"prerequisites": ["Theology","Iron Working"],
+			},
+			{
+				"name": "Currency",
+				"row": 6,
+				"prerequisites": ["Civil Service"],
+				"uniques": ["Market Economy Beginning"],
+			},
+			{
+				"name": "Metal Casting",
+				"row": 9,
+				"prerequisites": ["Iron Working","Engineering"],
+			},
+			{
+				"name": "Education",
+				"row": 2,
+				"prerequisites": ["Civil Service","Theology"],
+			},
+		]
+	},
+	{
+		"columnNumber": 39,
+		"era": "Medieval era",
+		"techCost": 6250,
+		"buildingCost": 1400,
+		"wonderCost": 4200,
+		"techs": [
+			{
+				"name": "Gunpowder",
+				"row": 3,
+				"prerequisites": ["Alchemy"],
+			},
+			{
+				"name": "Organized Religion",
+				"row": 2,
+				"prerequisites": ["Education","Currency"],
+				"uniques": ["Enables conversion of city production to [Faith]"],
+			},
+			{
+				"name": "Machinery",
+				"row": 9,
+				"prerequisites": ["Currency","Metal Casting"],
+			},
+			{
+				"name": "Guilds",
+				"row": 6,
+				"prerequisites": ["Currency"],
+				"uniques": ["Production to [Gold] conversion in cities changed by [+10]%"],
+			},
+			{
+				"name": "Chivalry",
+				"row": 7,
+				"prerequisites": ["Military"],
+			},
+			{
+				"name": "Steel",
+				"row": 10,
+				"prerequisites": ["Metal Casting"],
+			},
+			{
+				"name": "Physics",
+				"row": 4,
+				"prerequisites": ["Education"],
+			},
+		]
+	},
+	{
+		"columnNumber": 40,
+		"era": "Medieval era",
+		"techCost": 6250,
+		"buildingCost": 1500,
+		"wonderCost": 4500,
+		"techs": [
+			{
+				"name": "Printing Press",
+				"row": 9,
+				"prerequisites": ["Machinery"],
+			},
+			{
+				"name": "Astronomy",
+				"row": 1,
+				"prerequisites": ["Telescope","Physics"],
+			},
+			{
+				"name": "Paper Money",
+				"row": 6,
+				"prerequisites": ["Guilds"],
+			},
+			{
+				"name": "Fire Arms",
+				"row": 3,
+				"prerequisites": ["Gunpowder","Chivalry"],
+			},
+			{
+				"name": "Hydraulically",
+				"row": 4,
+				"prerequisites": ["Physics","Machinery"],
+			},
+			{
+				"name": "Herbalism",
+				"row": 2,
+				"prerequisites": ["Organized Religion","Chivalry"],
+			},
+		]
+	},
+	{
+		"columnNumber": 41,
+		"era": "Discovery era",
+		"techCost": 6250,
+		"buildingCost": 1600,
+		"wonderCost": 4800,
+		"techs": [
+			{
+				"name": "Banking",
+				"row": 6,
+				"prerequisites": ["Paper Money","Printing Press"],
+			},
+			{
+				"name": "Turbine",
+				"row": 4,
+				"prerequisites": ["Hydraulically"],
+			},
+			{
+				"name": "Astrolabe",
+				"row": 1,
+				"prerequisites": ["Astronomy"],
+			},
+			{
+				"name": "Musket Arms",
+				"row": 3,
+				"prerequisites": ["Fire Arms"],
+			},
+			{
+				"name": "Ranged Trading",
+				"row": 10,
+				"prerequisites": ["Steel"],
+				"uniques": ["[+50]% Gold from Great Merchant trade missions","[+1] Movement <for [Human Water] units>"],
+			},
+		]
+	},
+	{
+		"columnNumber": 42,
+		"era": "Discovery era",
+		"techCost": 6350,
+		"buildingCost": 1700,
+		"wonderCost": 5100,
+		"techs": [
+			{
+				"name": "Sextant",
+				"row": 1,
+				"prerequisites": ["Astrolabe"],
+				"uniques": ["[+1] Sight <for [Human Water] units>"],
+			},
+			{
+				"name": "Intensive Farming",
+				"row": 10,
+				"prerequisites": ["Ranged Trading"],
+				"uniques": ["[+1] Happiness from each type of luxury resource","[+10 Gold] from [Spices] tiles [in all cities]"],
+			},
+			{
+				"name": "Calculus",
+				"row": 4,
+				"prerequisites": ["Turbine"],
+				"uniques": ["Science gained from research agreements [+33]%"],
+			},
+			{
+				"name": "Pharmacy",
+				"row": 2,
+				"prerequisites": ["Herbalism"],
+			},
+			{
+				"name": "Flintlock",
+				"row": 3,
+				"prerequisites": ["Musket Arms"],
+			},
+			{
+				"name": "Contract Management",
+				"row": 6,
+				"prerequisites": ["Banking"],
+				"uniques": ["When defeating a [Barbarian] unit, earn [10] Gold and recruit it","[Gold] cost of purchasing [All] units [-17]%","[-25]% [Faith]","[+25]% Great Person generation [in all cities]"],
+			},
+			{
+				"name": "Earth Globe",
+				"row": 9,
+				"prerequisites": ["Ranged Trading"],
+				"uniques": ["Reveal up to [10000] [All] within a [30] tile radius <upon discovering [Earth Globe]>"],
+				"quote": "'The church says the earth is flat, but I know that it is round.' - Ferdinand Magellan"
+			},
+		]
+	},
+	{
+		"columnNumber": 43,
+		"era": "Scientific era",
+		"techCost": 6350,
+		"buildingCost": 1800,
+		"wonderCost": 5400,
+		"techs": [
+			{
+				"name": "Monopoly",
+				"row": 10,
+				"prerequisites": ["Intensive Farming"],
+			},
+			{
+				"name": "Colonization",
+				"row": 9,
+				"prerequisites": ["Earth Globe"],
+			},
+			{
+				"name": "Magnetic Compass",
+				"row": 1,
+				"prerequisites": ["Sextant"],
+			},
+			{
+				"name": "Mechanics",
+				"row": 4,
+				"prerequisites": ["Flintlock","Calculus"],
+			},
+			{
+				"name": "Chemistry",
+				"row": 2,
+				"prerequisites": ["Pharmacy"],
+			},
+			{
+				"name": "Acoustics",
+				"row": 5,
+				"prerequisites": ["Contract Management"],
+			},
+			{
+				"name": "Manufacture",
+				"row": 6,
+				"prerequisites": ["Contract Management"],
+			},
+			{
+				"name": "Architecture",
+				"row": 7,
+				"prerequisites": ["Contract Management"],
+			},
+			{
+				"name": "Minie Bullet",
+				"row": 3,
+				"prerequisites": ["Contract Management","Flintlock"],
+				"uniques": ["Improve hit chance of Gunpowder units"],
+			},
+		]
+	},
+	{
+		"columnNumber": 44,
+		"era": "Scientific era",
+		"techCost": 6350,
+		"buildingCost": 1900,
+		"wonderCost": 5700,
+		"techs": [
+			{
+				"name": "Law of Gravity",
+				"row": 5,
+				"prerequisites": ["Mechanics","Acoustics"],
+			},
+			{
+				"name": "Rifling",
+				"row": 3,
+				"prerequisites": ["Minie Bullet","Mechanics"],
+			},
+			{
+				"name": "Steam Engine",
+				"row": 6,
+				"prerequisites": ["Chemistry","Mechanics","Manufacture"],
+			},
+			{
+				"name": "Biology",
+				"row": 2,
+				"prerequisites": ["Chemistry","Magnetic Compass"],
+			},
+			{
+				"name": "Economics",
+				"row": 7,
+				"prerequisites": ["Monopoly","Colonization","Manufacture","Architecture"],
+			},
+			{
+				"name": "Military Science",
+				"row": 4,
+				"prerequisites": ["Chemistry","Mechanics","Minie Bullet"],
+			},
+		]
+	},
+	{
+		"columnNumber": 45,
+		"era": "Industrial era",
+		"techCost": 6350,
+		"buildingCost": 2000,
+		"wonderCost": 6000,
+		"techs": [
+			{
+				"name": "Bolt Action",
+				"row": 3,
+				"prerequisites": ["Rifling","Law of Gravity"],
+				"uniques": ["[+80]% Strength <when attacking> <for [Rifleman] units>"],
+			},
+			{
+				"name": "Morphine",
+				"row": 2,
+				"prerequisites": ["Biology"],
+			},
+			{
+				"name": "Industrialization",
+				"row": 6,
+				"prerequisites": ["Steam Engine","Economics"],
+			},
+			{
+				"name": "Game Theory",
+				"row": 7,
+				"prerequisites": ["Economics"],
+			},
+			{
+				"name": "Loom",
+				"row": 8,
+				"prerequisites": ["Steam Engine","Economics"],
+			},
+			{
+				"name": "Morse",
+				"row": 9,
+				"prerequisites": ["Economics"],
+			},
+			{
+				"name": "Dynamite",
+				"row": 4,
+				"prerequisites": ["Economics","Military Science"],
+			},
+			{
+				"name": "Locomotives",
+				"row": 5,
+				"prerequisites": ["Law of Gravity","Steam Engine"],
+			},
+		]
+	},
+	{
+		"columnNumber": 46,
+		"era": "Industrial era",
+		"techCost": 6350,
+		"buildingCost": 2100,
+		"wonderCost": 6300,
+		"techs": [
+			{
+				"name": "Photography",
+				"row": 1,
+				"prerequisites": ["Morphine"],
+				"uniques": ["[+10]% Great Person generation [in all cities]"],
+			},
+			{
+				"name": "Recoil Reusion",
+				"row": 3,
+				"prerequisites": ["Bolt Action","Industrialization","Dynamite"],
+			},
+			{
+				"name": "Medical Institution",
+				"row": 2,
+				"prerequisites": ["Morphine","Industrialization"],
+			},
+			{
+				"name": "Telephone",
+				"row": 7,
+				"prerequisites": ["Game Theory","Morse"],
+			},
+			{
+				"name": "Mechanical Loom",
+				"row": 8,
+				"prerequisites": ["Loom","Industrialization"],
+			},
+			{
+				"name": "Radio",
+				"row": 9,
+				"prerequisites": ["Morse"],
+			},
+			{
+				"name": "Phonograph",
+				"row": 10,
+				"prerequisites": ["Morse"],
+			},
+			{
+				"name": "Combustion",
+				"row": 5,
+				"prerequisites": ["Industrialization","Locomotives"],
+			},
+			{
+				"name": "Electricity",
+				"row": 4,
+				"prerequisites": ["Industrialization"],
+			},
+		]
+	},
+	{
+		"columnNumber": 47,
+		"era": "Atomic era",
+		"techCost": 6350,
+		"buildingCost": 2200,
+		"wonderCost": 6600,
+		"techs": [
+			{
+				"name": "Electronics",
+				"row": 9,
+				"prerequisites": ["Electricity","Radio","Phonograph","Telephone"],
+			},
+			{
+				"name": "Relativity",
+				"row": 8,
+				"prerequisites": ["Electricity","Phonograph","Telephone"],
+			},
+			{
+				"name": "Plastics",
+				"row": 1,
+				"prerequisites": ["Electricity","Medical Institution"],
+				"uniques": ["[+10000]% Strength <vs [Water Mammal] units>"],
+			},
+			{
+				"name": "Antibiotics",
+				"row": 2,
+				"prerequisites": ["Medical Institution"],
+			},
+			{
+				"name": "Replaceable Parts",
+				"row": 3,
+				"prerequisites": ["Recoil Reusion"],
+			},
+			{
+				"name": "Flight",
+				"row": 5,
+				"prerequisites": ["Combustion"],
+			},
+			{
+				"name": "Movie",
+				"row": 10,
+				"prerequisites": ["Radio","Phonograph","Telephone"],
+			},
+		]
+	},
+	{
+		"columnNumber": 48,
+		"era": "Atomic era",
+		"techCost": 6350,
+		"buildingCost": 2300,
+		"wonderCost": 6900,
+		"techs": [
+			{
+				"name": "Transistor",
+				"row": 9,
+				"prerequisites": ["Electronics"],
+			},
+			{
+				"name": "Refrigeration",
+				"row": 2,
+				"prerequisites": ["Antibiotics", "Electronics"],
+			},
+			{
+				"name": "Ballistics",
+				"row": 3,
+				"prerequisites": ["Replaceable Parts"],
+			},
+			{
+				"name": "Nuclear Fission",
+				"row": 8,
+				"prerequisites": ["Relativity"],
+				
+			},
+			{
+				"name": "Radar",
+				"row": 5,
+				"prerequisites": ["Electronics","Flight"],
+			},
+			{
+				"name": "Television",
+				"row": 10,
+				"prerequisites": ["Movie","Plastics"],
+				"uniques": ["[+25]% Great Person generation [in all cities]"],
+			},
+		]
+	},
+	{
+		"columnNumber": 49,
+		"era": "Information era",
+		"techCost": 6350,
+		"buildingCost": 2400,
+		"wonderCost": 7200,
+		"techs": [
+			{
+				"name": "Electromagnetics",
+				"row": 7,
+				"prerequisites": ["Nuclear Fission"],
+			},
+			{
+				"name": "Molecular Biology",
+				"row": 2,
+				"prerequisites": ["Refrigeration"],
+			},
+			{
+				"name": "Rocketry",
+				"row": 3,
+				"prerequisites": ["Ballistics"],
+			},
+			{
+				"name": "Circuit",
+				"row": 9,
+				"prerequisites": ["Transistor","Nuclear Fission"],
+			},
+			{
+				"name": "Computers",
+				"row": 10,
+				"prerequisites": ["Transistor","Television"],
+			},
+		]
+	},
+	{
+		"columnNumber": 50,
+		"era": "Information era",
+		"techCost": 6350,
+		"buildingCost": 2500,
+		"wonderCost": 7500,
+		"techs": [
+			{
+				"name": "Genetics",
+				"row": 2,
+				"prerequisites": ["Molecular Biology"],
+			},
+			{
+				"name": "Satellites",
+				"row": 3,
+				"prerequisites": ["Rocketry"],
+				"uniques": ["Reveals the entire map"],
+			},
+			{
+				"name": "Terminal",
+				"row": 9,
+				"prerequisites": ["Computers"],
+			},
+			{
+				"name": "Computer Chip",
+				"row": 10,
+				"prerequisites": ["Computers","Circuit"],
+			},
+			{
+				"name": "Neumann Computer",
+				"row": 8,
+				"prerequisites": ["Computers"],
+			},
+			{
+				"name": "Telecommunications",
+				"row": 7,
+				"prerequisites": ["Computers","Electromagnetics"],
+			},
+		]
+	},
+	{
+		"columnNumber": 51,
+		"era": "Contemporary era",
+		"techCost": 6350,
+		"buildingCost": 2600,
+		"wonderCost": 7800,
+		"techs": [
+			{
+				"name": "Globalization",
+				"row": 8,
+				"prerequisites": ["Neumann Computer","Telecommunications"],
+			},
+			{
+				"name": "Moon Mission",
+				"row": 3,
+				"prerequisites": ["Satellites"],
+			},
+			{
+				"name": "Modern Biotech",
+				"row": 2,
+				"prerequisites": ["Genetics"],
+			},
+			{
+				"name": "3G Network",
+				"row": 7,
+				"prerequisites": ["Telecommunications"],
+			},
+			{
+				"name": "Online Commerce",
+				"row": 6,
+				"prerequisites": ["Telecommunications"],
+			},
+			{
+				"name": "Game",
+				"row": 9,
+				"prerequisites": ["Neumann Computer","Computer Chip"],
+			},
+			{
+				"name": "Robotics",
+				"row": 10,
+				"prerequisites": ["Terminal","Computer Chip"],
+			},
+		]
+	},
+	{
+		"columnNumber": 52,
+		"era": "Contemporary era",
+		"techCost": 6350,
+		"buildingCost": 2700,
+		"wonderCost": 8100,
+		"techs": [
+			{
+				"name": "Smart Phone",
+				"row": 7,
+				"prerequisites": ["Online Commerce","3G Network"],
+			},
+			{
+				"name": "Social Media",
+				"row": 6,
+				"prerequisites": ["Online Commerce","3G Network"],
+			},
+			{
+				"name": "Space Station",
+				"row": 3,
+				"prerequisites": ["Moon Mission","Online Commerce"],
+			},
+			{
+				"name": "Genome Mapping",
+				"row": 2,
+				"prerequisites": ["Modern Biotech"],
+			},
+			{
+				"name": "Nanotechnology",
+				"row": 1,
+				"prerequisites": ["Modern Biotech"],
+			},
+			{
+				"name": "Artificial Intelligence",
+				"row": 10,
+				"prerequisites": ["Robotics","Modern Biotech","3G Network"],
+			},
+			{
+				"name": "Online Culture",
+				"row": 9,
+				"prerequisites": ["Globalization","Game","3G Network"],
+			},
+		]
+	},
+	{
+		"columnNumber": 53,
+		"era": "Pre Future era",
+		"techCost": 6350,
+		"buildingCost": 2800,
+		"wonderCost": 8400,
+		"techs": [
+			{
+				"name": "Bioengineering",
+				"row": 2,
+				"prerequisites": ["Genome Mapping"],
+			},
+			{
+				"name": "Superstrings Theory",
+				"row": 1,
+				"prerequisites": ["Nanotechnology"],
+			},
+			{
+				"name": "Diffusive Oxygen Field System",
+				"row": 3,
+				"prerequisites": ["Space Station"],
+			},
+			{
+				"name": "Artificial Personality",
+				"row": 10,
+				"prerequisites": ["Artificial Intelligence"],
+			},
+			{
+				"name": "Virtual Life",
+				"row": 8,
+				"prerequisites": ["Online Culture"],
+			},
+		]
+	},
+	{
+		"columnNumber": 54,
+		"era": "Pre Future era",
+		"techCost": 6350,
+		"buildingCost": 2900,
+		"wonderCost": 8700,
+		"techs": [
+			{
+				"name": "Mind Upload",
+				"row": 8,
+				"prerequisites": ["Virtual Life"],
+			},
+			{
+				"name": "Machine Life Form",
+				"row": 10,
+				"prerequisites": ["Artificial Personality"],
+			},
+			{
+				"name": "Space Adaptation",
+				"row": 3,
+				"prerequisites": ["Bioengineering","Diffusive Oxygen Field System"],
+			},
+			{
+				"name": "Transhumanism",
+				"row": 2,
+				"prerequisites": ["Bioengineering"],
+			},
+			{
+				"name": "Cybernetics",
+				"row": 4,
+				"prerequisites": ["Bioengineering","Virtual Life"],
+			},
+			{
+				"name": "Neural Internet",
+				"row": 5,
+				"prerequisites": ["Bioengineering","Virtual Life"],
+			},	
+			{
+				"name": "Dimensional Physics",
+				"row": 1,
+				"prerequisites": ["Superstrings Theory"],
+			},
+		]
+	},
+	{
+		"columnNumber": 55,
+		"era": "Future era",
+		"techCost": 6350,
+		"buildingCost": 3000,
+		"wonderCost": 9000,
+		"techs": [
+			{
+				"name": "Humans",
+				"row": 10,
+				"prerequisites": ["Machine Life Form"],
+			},
+			{
+				"name": "Machine Rights",
+				"row": 9,
+				"prerequisites": ["Machine Life Form"],
+			},
+		]
+	},
+	{
+		"columnNumber": 56,
+		"era": "Future era",
+		"techCost": 10000,
+		"buildingCost": 3000,
+		"wonderCost": 9000,
+		"techs": [
+			{
+				"name": "Anthropocene Extinction",
+				"row": 6,
+				"uniques": ["Only available <after discovering [Nuclear Fission]>","Only available <after discovering [Rocketry]>","Cannot be hurried","Enable to Construct Cockroaches"],
+			},
+			{
+				"name": "Homo Deus",
+				"row": 3,
+				"uniques": ["Only available <after discovering [Transhumanism]>","Only available <after discovering [Space Adaptation]>","Cannot be hurried","Enable to Construct Universe Beta 1.10"],
+			},
+			{
+				"name": "Technocene",
+				"row": 9,
+				"uniques": ["Only available <after discovering [Machine Rights]>","Only available <after discovering [Humans]>","Cannot be hurried","Enable to Construct Humans"],
+			},
+		]
+	}
+]
