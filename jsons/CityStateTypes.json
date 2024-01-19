@@ -3,15 +3,11 @@
         "name": "Tribal Biosphere",
         "friendBonusUniques": [
 	"[+3 Science] <before the [Holocene]>",
-            "[+3 Culture] <starting from the [Holocene]> <before the [Medieval era]>",
-            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Culture] <starting from the [Industrial era]>"
+            "[+3 Culture] <starting from the [Holocene]>"
         ],
         "allyBonusUniques": [
             "[+3 Science, +3 Gold] <before the [Holocene]>",
-            "[+6 Culture] <starting from the [Holocene]> <before the [Medieval era]>",
-            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Culture] <starting from the [Industrial era]>",
+            "[+6 Culture] <starting from the [Holocene]>",
         ],
         "color": [139, 96, 255]
     },
@@ -45,20 +41,16 @@
     {
         "name": "Wonderful Biosphere",
         "friendBonusUniques":  [
-            "[+3 Faith] <starting from the [Neolithic]> <before the [Medieval era]>",
-            "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Faith] <starting from the [Industrial era]>",
-		"[+3 Gold] <before the [Mesoproterozoic]>",
-            "[+6 Gold] <starting from the [Mesoproterozoic]> <before the [Carboniferous period]>",
-            "[+13 Gold] <starting from the [Carboniferous period]>"
+            "[+3 Faith] <starting from the [Neolithic]>",
+		"[+3 Gold] <before the [Proterozoic]>",
+            "[+6 Gold] <starting from the [Proterozoic]> <before the [Ancient era]>",
+            "[+13 Gold] <starting from the [Ancient era]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Faith] <starting from the [Neolithic]> <before the [Medieval era]>",
-            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Faith] <starting from the [Industrial era]>",
-		"[+6 Gold] <before the [Mesoproterozoic]>",
-            "[+12 Gold] <starting from the [Mesoproterozoic]> <before the [Carboniferous period]>",
-            "[+26 Gold] <starting from the [Carboniferous period]>"
+            "[+6 Faith] <starting from the [Neolithic]>",
+		"[+6 Gold] <before the [Proterozoic]>",
+            "[+12 Gold] <starting from the [Proterozoic]> <before the [Ancient era]>",
+            "[+26 Gold] <starting from the [Ancient era]>"
         ],
         "color": [255, 255, 255]
     }
