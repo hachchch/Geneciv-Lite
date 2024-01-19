@@ -196,7 +196,7 @@
 		"name": "Stone",
 		"revealedBy": "Primordial Soup",
 		"resourceType": "Bonus",
-		"improvement": "Quarry",
+		// "improvement": "Quarry",
                 "terrainsCanBeFoundOn": ["Hill","Snow","Plains"]
 		"production": 2,
 	},
