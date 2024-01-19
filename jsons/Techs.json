@@ -114,52 +114,6 @@
 			}
 				]
 			},
-			/*{
-				"name": "Nucleotides",
-				"row": 4,
-				"prerequisites": ["Primordial Soup"],
-				"quote": "Nucleotides are organic molecules composed of a nitrogenous base, a pentose sugar and a phosphate.",
-				"civilopediaText": [
-			{
-				"extraImage": "Picture/Nucleotides",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Nucleotides are organic molecules composed of a nitrogenous base, a pentose sugar and a phosphate.",
-			}
-				]
-			}*/
-		]
-	},
-	{
-		"columnNumber": 4,
-		"era": "Hadean eon",
-		"techCost": 60,
-		"buildingCost": 70,
-		"wonderCost": 150,
-		"techs": [
-			/*
-			{
-				"name": "Protein",
-				"row": 6,
-				"prerequisites": ["Amino Acid"],
-				"quote": "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perform a vast array of functions within organisms, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells and organisms, and transporting molecules from one location to another.",
-				"civilopediaText": [
-			{
-				"extraImage": "Picture/Protein",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perform a vast array of functions within organisms, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells and organisms, and transporting molecules from one location to another.",
-			},
-				]
-			},*/
 			{
 				"name": "DNA",
 				"row": 4,
@@ -181,7 +135,7 @@
 		]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 4,
 		"era": "Archean eon",
 		"techCost": 80,
 		"buildingCost": 80,
