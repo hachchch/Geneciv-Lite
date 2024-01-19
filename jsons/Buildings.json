@@ -537,15 +537,6 @@
 		"requiredTech": "The Culture",
 	},
 	{
-		"name": "Hōryū Ji",
-		// "cost": 9000,
-		"isWonder": true,
-		"culture": 16,
-		"uniques": ["[+1 Culture] per every [8] [Faith]"],
-		"requiredTech": "Philosophy",
-		"quote": "Hōryū Ji was originally commissioned by Shōtokutaishi at the time it was called Wakakusadera, a name that is still sometimes used. This first temple is believed to have been completed by 607. Hōryū-ji was dedicated to Yakushi Nyorai, the Buddha of healing and in honor of the prince's father.",
-	},
-	{
 		"name": "Ammonoids",
 		// "cost": 1000,
 		"culture": 2,
