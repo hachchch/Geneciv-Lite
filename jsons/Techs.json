@@ -144,7 +144,7 @@
 			{
 				"name": "Prokaryotic Cell",
 				"row": 5,
-				"prerequisites": ["Protein","DNA"],
+				"prerequisites": ["Amino Acid","DNA"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Prokaryotic Cell",
