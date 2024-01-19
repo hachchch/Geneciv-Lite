@@ -1,0 +1,2483 @@
+
+game0.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Tiles/ForestPP
+  rotate: false
+  xy: 220, 185
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPPH
+  rotate: false
+  xy: 220, 121
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPG
+  rotate: false
+  xy: 148, 183
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPGH
+  rotate: false
+  xy: 148, 119
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestT-Paleogene period
+  rotate: false
+  xy: 292, 185
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra-Paleogene period
+  rotate: false
+  xy: 292, 678
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand-Paleogene period
+  rotate: false
+  xy: 292, 678
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra2-Paleogene period
+  rotate: false
+  xy: 292, 614
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra3-Paleogene period
+  rotate: false
+  xy: 364, 1254
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand2-Paleogene period
+  rotate: false
+  xy: 292, 614
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand3-Paleogene period
+  rotate: false
+  xy: 364, 1254
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+Forests-Paleogene period
+  rotate: false
+  xy: 148, 183
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hill+Forest+Forests2-Paleogene period
+  rotate: false
+  xy: 148, 119
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+Forests
+  rotate: false
+  xy: 220, 185
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+Forest+Forests
+  rotate: false
+  xy: 220, 121
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland-Paleogene period
+  rotate: false
+  xy: 980, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill-Paleogene period
+  rotate: false
+  xy: 1196, 1570
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand-Paleogene period
+  rotate: false
+  xy: 980, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+GrassLand-Paleogene period
+  rotate: false
+  xy: 1196, 1570
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill2-Paleogene period
+  rotate: false
+  xy: 1268, 1571
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland2-Paleogene period
+  rotate: false
+  xy: 1052, 1584
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland3-Paleogene period
+  rotate: false
+  xy: 1124, 1574
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+GrassLand2-Paleogene period
+  rotate: false
+  xy: 1268, 1571
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand2-Paleogene period
+  rotate: false
+  xy: 1052, 1584
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand3-Paleogene period
+  rotate: false
+  xy: 1124, 1574
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+Forests-Paleogene period
+  rotate: false
+  xy: 501, 1510
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+Forests2-Paleogene period
+  rotate: false
+  xy: 357, 1378
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hunting Spot
+  rotate: false
+  xy: 433, 1574
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains-Paleogene period
+  rotate: false
+  xy: 1441, 1233
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill-Paleogene period
+  rotate: false
+  xy: 1365, 1184
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+GrassLand-Paleogene period
+  rotate: false
+  xy: 1441, 1233
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+GrassLand-Paleogene period
+  rotate: false
+  xy: 1365, 1184
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill2-Paleogene period
+  rotate: false
+  xy: 1365, 1120
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains2-Paleogene period
+  rotate: false
+  xy: 1293, 1195
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains3-Paleogene period
+  rotate: false
+  xy: 1293, 1131
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+GrassLand2-Paleogene period
+  rotate: false
+  xy: 1365, 1120
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+GrassLand2-Paleogene period
+  rotate: false
+  xy: 1293, 1195
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+GrassLand3-Paleogene period
+  rotate: false
+  xy: 1293, 1131
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forests
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Jungle-Mesozoic era
+  rotate: false
+  xy: 636, 915
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forests-Mesozoic era
+  rotate: false
+  xy: 516, 690
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Forests+Forest-Mesozoic era
+  rotate: false
+  xy: 516, 690
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra-Paleogene period
+  rotate: false
+  xy: 552, 465
+  size: 32, 28
+  orig: 32, 28
+  offset: 0,0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+GrassLand
+  rotate: false
+  xy: 552, 465
+  size: 32, 28
+  orig: 32, 28
+  offset: 0,0
+  index: -1
+TileSets/FantasyHex/Tiles/Mountain-Mesoproterozoic
+  rotate: false
+  xy: 716, 593
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mountain2-Mesoproterozoic
+  rotate: false
+  xy: 716, 593
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+
+game14.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Grassland
+  rotate: false
+  xy: 1730, 1840
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Jungle
+  rotate: false
+  xy: 1730, 1840
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Amino Acid
+  rotate: false
+  xy: 1466, 690
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Prokaryote
+  rotate: false
+  xy: 1386, 731
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Eukaryote
+  rotate: false
+  xy: 1346, 724
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lakes
+  rotate: false
+  xy: 1272, 935
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Cryptic era
+  rotate: false
+  xy: 1272, 935
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains
+  rotate: false
+  xy: 1904, 1460
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+
+game10010.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/Rocket Spear
+  rotate: false
+  xy: 796, 1072
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chiroptera
+  rotate: false
+  xy: 846, 1072
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Platypus
+  rotate: false
+  xy: 896, 1072
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kangaroos
+  rotate: false
+  xy: 946, 1072
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Forest+Forests-Paleogene period
+  rotate: false
+  xy: 980, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Jungle+Forests-Paleogene period
+  rotate: false
+  xy: 980, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+Forests-Paleogene period
+  rotate: false
+  xy: 1080, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Forest+Forests-Paleogene period
+  rotate: false
+  xy: 1080, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+game22.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Lakes-Archean eon
+  rotate: false
+  xy: 604, 636
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Archean eon
+  rotate: false
+  xy: 604, 636
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Mesoproterozoic
+  rotate: false
+  xy: 484, 741
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland-Miocene
+  rotate: false
+  xy: 484, 1009
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains-Miocene
+  rotate: false
+  xy: 1485, 876
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+GrassLand-Paleogene period
+  rotate: false
+  xy: 484, 1009
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Factory
+  rotate: false
+  xy: 1485, 912
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Industry
+  rotate: false
+  xy: 404, 1325
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Holocene
+  rotate: false
+  xy: 364, 598
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+GrassLand-Paleogene period
+  rotate: false
+  xy: 1485, 876
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Fish
+  rotate: false
+  xy: 444, 672
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Caniform
+  rotate: false
+  xy: 524, 1230
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Arthropod
+  rotate: false
+  xy: 444, 1074
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+
+game82.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TechIcons/Planet Earth
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Home Star
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Moon
+  rotate: false
+  xy: 200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Primordial Soup
+  rotate: false
+  xy: 300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/DNA
+  rotate: false
+  xy: 400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Politics
+  rotate: false
+  xy: 400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Nucleotides
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Amino Acid
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Amino Acid
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Particle
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Protein
+  rotate: false
+  xy: 700, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Prokaryotic Cell
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Prokaryote
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Cell
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Mitosis
+  rotate: false
+  xy: 900, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Speaking
+  rotate: false
+  xy: 1000, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+game49.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TechIcons/Human Race
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Unciv
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/New Ability
+  rotate: false
+  xy: 200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Religion
+  rotate: false
+  xy: 300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/War
+  rotate: false
+  xy: 400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Burial
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Jellyfish
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Water Animal
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Swimming
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Fish
+  rotate: false
+  xy: 700, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Fish
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Fishes
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tetrapod
+  rotate: false
+  xy: 900, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Amphibian
+  rotate: false
+  xy: 900, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Lung
+  rotate: false
+  xy: 1000, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Lungfish
+  rotate: false
+  xy: 1100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Trilobite
+  rotate: false
+  xy: 1200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Arthropod
+  rotate: false
+  xy: 1200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Crustacean
+  rotate: false
+  xy: 1200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Water Arthropod
+  rotate: false
+  xy: 1200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Flatworm
+  rotate: false
+  xy: 1300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Flatworm
+  rotate: false
+  xy: 1300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Coral
+  rotate: false
+  xy: 1400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Sponge
+  rotate: false
+  xy: 1500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Dinosaur
+  rotate: false
+  xy: 1600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Oscula
+  rotate: false
+  xy: 1700, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+game422.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Hunting Spot
+  rotate: false
+  xy: 484, 970
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Productive Site
+  rotate: false
+  xy: 1988, 1345
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Horse
+  rotate: false
+  xy: 564, 1037
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Boar
+  rotate: false
+  xy: 684, 1115
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sapiens Warrior
+  rotate: false
+  xy: 764, 504
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Neanderthalensis Warrior
+  rotate: false
+  xy: 764, 476
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mankind
+  rotate: false
+  xy: 764, 448
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Thrower
+  rotate: false
+  xy: 764, 364
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ape
+  rotate: false
+  xy: 764, 420
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Jellyfish
+  rotate: false
+  xy: 764, 392
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman
+  rotate: false
+  xy: 684, 497
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Particles
+  rotate: false
+  xy: 684, 469
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Modern Fish
+  rotate: false
+  xy: 604, 636
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Fish
+  rotate: false
+  xy: 444, 672
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Monument
+  rotate: false
+  xy: 804, 922
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+
+game931.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/City center-Carboniferous period
+  rotate: false
+  xy: 604, 626
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Silurian period
+  rotate: false
+  xy: 404, 1173
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Devonian period
+  rotate: false
+  xy: 484, 1009
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tribesman
+  rotate: false
+  xy: 764, 504
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Cretaceous Dinosaur
+  rotate: false
+  xy: 550, 695
+  size: 60, 52
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+
+game321.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/City center-Pleistocene
+  rotate: false
+  xy: 404, 841
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+
+game3939.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/Flatworm
+  rotate: false
+  xy: 676, 694
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Modern Jellyfish
+  rotate: false
+  xy: 559, 754
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Dolphin
+  rotate: false
+  xy: 639, 657
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Feliform
+  rotate: false
+  xy: 716, 1116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lion
+  rotate: false
+  xy: 716, 1116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Small Reptile
+  rotate: false
+  xy: 592, 496
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tetrapod
+  rotate: false
+  xy: 676, 575
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mountain
+  rotate: false
+  xy: 716, 717
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra
+  rotate: false
+  xy: 552, 465
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+GrassLand
+  rotate: false
+  xy: 716, 1152
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Forest+Forests
+  rotate: false
+  xy: 756, 920
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Jungle+Forests
+  rotate: false
+  xy: 756, 920
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+GrassLand
+  rotate: false
+  xy: 756, 1000
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forests
+  rotate: false
+  xy: 836, 992
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Jungle+Forests
+  rotate: false
+  xy: 876, 847
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Dunkleosteus
+  rotate: false
+  xy: 590, 832
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+
+game02.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Pseudosuchia
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Avemetatarsalia
+  rotate: false
+  xy: 0, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Triceratops
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tyrannosaurus
+  rotate: false
+  xy: 100, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sauropoda
+  rotate: false
+  xy: 200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Eusuchia
+  rotate: false
+  xy: 200, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Particles
+  rotate: false
+  xy: 300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Predation
+  rotate: false
+  xy: 300, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Emotions
+  rotate: false
+  xy: 400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Oasis
+  rotate: false
+  xy: 400, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Orthoptera
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Uniramia
+  rotate: false
+  xy: 500, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+game03.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Cancer
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Muscles
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Eumycetozoa
+  rotate: false
+  xy: 200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ozone Layer
+  rotate: false
+  xy: 300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Archaea
+  rotate: false
+  xy: 300, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Eukaryote
+  rotate: false
+  xy: 200, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Phagocytic Cell
+  rotate: false
+  xy: 100, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nervous System
+  rotate: false
+  xy: 0, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+game4004.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/GrasslandForest
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/GrasslandForest2
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest2
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest3
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/GrasslandForest2-Paleogene period
+  rotate: false
+  xy: 556, 1026
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest2-Paleogene period
+  rotate: false
+  xy: 792, 880
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest3-Paleogene period
+  rotate: false
+  xy: 828, 880
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hill2-Paleogene period
+  rotate: false
+  xy: 556, 717
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hill3-Ancient era
+  rotate: false
+  xy: 556, 681
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hill4-Ancient era
+  rotate: false
+  xy: 556, 681
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ice2
+  rotate: false
+  xy: 676, 1208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Snow2
+  rotate: false
+  xy: 876, 847
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wheat2
+  rotate: false
+  xy: 916, 973
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker2
+  rotate: false
+  xy: 916, 865
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mine2
+  rotate: false
+  xy: 596, 688
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forest
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forest2
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsJungle
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forest2-Paleogene period
+  rotate: false
+  xy: 516, 690
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+game922.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
+  rotate: false
+  xy: 796, 955
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Forest+Forests
+  rotate: false
+  xy: 756, 959
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Avemetatarsalia
+  rotate: false
+  xy: 637, 660
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Saurischia
+  rotate: false
+  xy: 681, 689
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Big Reptile
+  rotate: false
+  xy: 552, 496
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Eumycetozoa
+  rotate: false
+  xy: 592, 496
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Plesiosaur
+  rotate: false
+  xy: 749, 437
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Plesiosaur2
+  rotate: false
+  xy: 799, 437
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Military
+  rotate: false
+  xy: 478, 476
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Eusuchia
+  rotate: false
+  xy: 476, 510
+  size: 33, 28
+  orig: 33, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Synapsida
+  rotate: false
+  xy: 445, 440
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archaea
+  rotate: false
+  xy: 797, 740
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Virus
+  rotate: false
+  xy: 556, 757
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crustacean
+  rotate: false
+  xy: 716, 791
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Radiodonta
+  rotate: false
+  xy: 716, 791
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+
+game001.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Tiles/JungleG
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Vegetation
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleP
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland
+  rotate: false
+  xy: 980, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Silurian period
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Silurian period
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Silurian period
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Ancient era
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Ancient era
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Ancient era
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Carboniferous period
+  rotate: false
+  xy: 880, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Carboniferous period
+  rotate: false
+  xy: 880, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Carboniferous period
+  rotate: false
+  xy: 880, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center
+  rotate: false
+  xy: 880, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Mesoproterozoic
+  rotate: false
+  xy: 780, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Crater
+  rotate: false
+  xy: 780, 1901
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Namakier
+  rotate: false
+  xy: 880, 1871
+  size: 64, 86
+  orig: 64, 86
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/FaunasG
+  rotate: false
+  xy: 680, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Faunas
+  rotate: false
+  xy: 580, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mammoth
+  rotate: false
+  xy: 480, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain
+  rotate: false
+  xy: 380, 1577
+  size: 64, 80
+  orig: 64, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain2
+  rotate: false
+  xy: 380, 1577
+  size: 64, 80
+  orig: 64, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Pleistocene
+  rotate: false
+  xy: 880, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Pleistocene
+  rotate: false
+  xy: 880, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Pleistocene
+  rotate: false
+  xy: 880, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Jungle+Forests
+  rotate: false
+  xy: 780, 1593
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Jungle+Forests
+  rotate: false
+  xy: 780, 1693
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+Jungle+Forests
+  rotate: false
+  xy: 680, 1593
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+Jungle+Forests
+  rotate: false
+  xy: 680, 1693
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland2
+  rotate: false
+  xy: 1080, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland3
+  rotate: false
+  xy: 1180, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPG
+  rotate: false
+  xy: 1080, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPG2
+  rotate: false
+  xy: 1080, 1390
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPG3
+  rotate: false
+  xy: 1080, 1290
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPGH
+  rotate: false
+  xy: 1280, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPPH
+  rotate: false
+  xy: 1280, 1790
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestG
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestP
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestT
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Outpost
+  rotate: false
+  xy: 880, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hunting Spot
+  rotate: false
+  xy: 680, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Habitat
+  rotate: false
+  xy: 880, 1301
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Monument
+  rotate: false
+  xy: 980, 1301
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Productive Site
+  rotate: false
+  xy: 980, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Factory
+  rotate: false
+  xy: 780, 1487
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestTH
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestGH
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPH
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPP
+  rotate: false
+  xy: 980, 1784
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra
+  rotate: false
+  xy: 980, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra2
+  rotate: false
+  xy: 1080, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra3
+  rotate: false
+  xy: 980, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra4
+  rotate: false
+  xy: 1080, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+Forests
+  rotate: false
+  xy: 1180, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+Forests2
+  rotate: false
+  xy: 1280, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand
+  rotate: false
+  xy: 1380, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand2
+  rotate: false
+  xy: 1480, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+City center-Carboniferous period
+  rotate: false
+  xy: 1580, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+City center-Carboniferous period
+  rotate: false
+  xy: 1680, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+City center
+  rotate: false
+  xy: 1580, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+City center
+  rotate: false
+  xy: 1680, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert
+  rotate: false
+  xy: 1678, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert2
+  rotate: false
+  xy: 1750, 1705
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert3
+  rotate: false
+  xy: 1822, 1713
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains
+  rotate: false
+  xy: 980, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains2
+  rotate: false
+  xy: 1080, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains3
+  rotate: false
+  xy: 1180, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill
+  rotate: false
+  xy: 1280, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+GrassLand
+  rotate: false
+  xy: 1380, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+GrassLand
+  rotate: false
+  xy: 1380, 1790
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill2
+  rotate: false
+  xy: 1280, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill
+  rotate: false
+  xy: 1280, 1590
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand
+  rotate: false
+  xy: 1380, 1590
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+GrassLand
+  rotate: false
+  xy: 1480, 1590
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand2
+  rotate: false
+  xy: 1380, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill2
+  rotate: false
+  xy: 1280, 1590
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+
+game002.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Plesiosaur
+  rotate: false
+  xy: 0, 0
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Synapsida
+  rotate: false
+  xy: 0, 100
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Fish
+  rotate: false
+  xy: 0, 200
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Modern Jellyfish
+  rotate: false
+  xy: 0, 300
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Eukaryote
+  rotate: false
+  xy: 0, 400
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Prokaryote
+  rotate: false
+  xy: 0, 500
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Particles
+  rotate: false
+  xy: 0, 600
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Tetrapod
+  rotate: false
+  xy: 0, 700
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Avemetatarsalia
+  rotate: false
+  xy: 0, 800
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Crustacean
+  rotate: false
+  xy: 0, 900
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Eusuchia
+  rotate: false
+  xy: 0, 1000
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Archaea
+  rotate: false
+  xy: 0, 1100
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Flatworm
+  rotate: false
+  xy: 0, 1200
+  size: 86, 84
+  orig: 86, 84
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Saurischia
+  rotate: false
+  xy: 0, 1284
+  size: 79, 69
+  orig: 79, 69
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Big Reptile
+  rotate: false
+  xy: 0, 1353
+  size: 78, 77
+  orig: 78, 77
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Horse
+  rotate: false
+  xy: 0, 1430
+  size: 77, 78
+  orig: 77, 78
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military
+  rotate: false
+  xy: 0, 1508
+  size: 73, 70
+  orig: 73, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Amino Acid
+  rotate: false
+  xy: 0, 1578
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Eumycetozoa
+  rotate: false
+  xy: 0, 1642
+  size: 63, 70
+  orig: 63, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-1
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-2
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+
+game003.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Feliform
+  rotate: false
+  xy: 0, 300
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Trilobites
+  rotate: false
+  xy: 0, 400
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+
+game004.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Tetrapod
+  rotate: false
+  xy: 0, 0
+  size: 149, 146
+  orig: 149, 146
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Synapsida
+  rotate: false
+  xy: 0, 146
+  size: 143, 133
+  orig: 143, 133
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Feliform-Pliocene
+  rotate: false
+  xy: 0, 279
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Particles
+  rotate: false
+  xy: 0, 415
+  size: 131, 136
+  orig: 131, 136
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Lion
+  rotate: false
+  xy: 0, 551
+  size: 126, 119
+  orig: 126, 119
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Glires
+  rotate: false
+  xy: 0, 670
+  size: 113, 108
+  orig: 113, 108
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Tamisiocaris
+  rotate: false
+  xy: 0, 778
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Small Reptile
+  rotate: false
+  xy: 0, 870
+  size: 99, 98
+  orig: 99, 98
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Shark2
+  rotate: false
+  xy: 0, 968
+  size: 99, 97
+  orig: 99, 97
+  offset: 0, 0
+  index: -1
+
+game005.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Sauropoda
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Pterosaur
+  rotate: false
+  xy: 0, 128
+  size: 109, 107
+  orig: 109, 107
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Cancer
+  rotate: false
+  xy: 0, 235
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Herbivore
+  rotate: false
+  xy: 0, 335
+  size: 99, 96
+  orig: 99, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Triceratops
+  rotate: false
+  xy: 0, 431
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Virus
+  rotate: false
+  xy: 0, 523
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Parasiticworm
+  rotate: false
+  xy: 0, 587
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+
+game006.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Ape
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Thrower
+  rotate: false
+  xy: 0, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mankind
+  rotate: false
+  xy: 0, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+
+game007.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Caniform
+  rotate: false
+  xy: 0, 0
+  size: 114, 115
+  orig: 114, 115
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Radiodonta
+  rotate: false
+  xy: 0, 115
+  size: 110, 107
+  orig: 110, 107
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Caniform-Pliocene
+  rotate: false
+  xy: 0, 222
+  size: 105, 96
+  orig: 105, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Boar
+  rotate: false
+  xy: 0, 318
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+
+game008.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Tyrannosaurus
+  rotate: false
+  xy: 0, 0
+  size: 228, 246
+  orig: 228, 246
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Cordyceps
+  rotate: false
+  xy: 0, 246
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+
+game00000.png
+size: 200, 200
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+SecretImages/Monkey Dance!
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
