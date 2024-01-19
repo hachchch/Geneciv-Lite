@@ -41,13 +41,13 @@
     {
         "name": "Wonderful Biosphere",
         "friendBonusUniques":  [
-            "[+3 Faith] <starting from the [Neolithic]>",
+            "[+3 Faith] <starting from the [Holocene]>",
 		"[+3 Gold] <before the [Proterozoic]>",
             "[+6 Gold] <starting from the [Proterozoic]> <before the [Ancient era]>",
             "[+13 Gold] <starting from the [Ancient era]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Faith] <starting from the [Neolithic]>",
+            "[+6 Faith] <starting from the [Holocene]>",
 		"[+6 Gold] <before the [Proterozoic]>",
             "[+12 Gold] <starting from the [Proterozoic]> <before the [Ancient era]>",
             "[+26 Gold] <starting from the [Ancient era]>"
